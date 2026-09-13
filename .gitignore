@@ -1,0 +1,39 @@
+# Generated ROM images — never commit ROM binaries
+*.gb
+*.gbc
+
+# Common local reference ROM names
+baserom*
+reference-roms/
+roms/
+
+# RGBDS build products
+*.o
+*.map
+*.sym
+*.noi
+
+# Generated/temporary build trees
+build/
+dist/
+out/
+.cache/
+
+# Tool binaries and Python caches
+*.exe
+__pycache__/
+*.pyc
+
+# Emulator save/state files
+*.sav
+*.rtc
+*.sgm
+*.sn*
+*.sa*
+*.sg1
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*~
