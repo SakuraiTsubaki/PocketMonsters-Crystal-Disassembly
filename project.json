@@ -1,0 +1,13 @@
+{
+  "$schema": "https://raw.githubusercontent.com/SakuraiTsubaki/Disassembly/main/schemas/project.schema.json",
+  "schema_version": 1,
+  "id": "crystal",
+  "repository": "SakuraiTsubaki/PocketMonsters-Crystal-Disassembly",
+  "title": "Pokémon Crystal",
+  "platform": "Game Boy Color",
+  "cpu": "Sharp SM83",
+  "architecture": "gb-sm83",
+  "family": "generation-ii",
+  "status": "foundation",
+  "releases": []
+}
