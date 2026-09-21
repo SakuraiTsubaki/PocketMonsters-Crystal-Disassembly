@@ -1,1 +1,4 @@
 id,region,language,revision,status,size,sha1,sha256,notes
+crystal-jp-rev0,Japan,Japanese,0,candidate,2097152,95127b901bbce2407daf43cce9f45d4c27ef635d,136ada06cb68656b7de475fa4b278d37dbeff8f5257e7dfdf7f4a4aec19a90f3,"Header PM_CRYSTAL; CGB 0xc0; SGB 0x00; RAM size code 0x05; checksum 0x22; global 0x9a40"
+crystal-en-rev0,USA/Europe,English,0,candidate,2097152,f4cd194bdee0d04ca4eac29e09b8e4e9d818c133,d6702e353dcbe2d2c69183046c878ef13a0dae4006e8cdff521cca83dd1582fe,"Header PM_CRYSTAL; CGB 0xc0; SGB 0x00; RAM size code 0x03; checksum 0x27; global 0x129f"
+crystal-en-rev1,USA/Europe,English,1,candidate,2097152,f2f52230b536214ef7c9924f483392993e226cfb,fdcc3c8c43813cf8731fc037d2a6d191bac75439c34b24ba1c27526e6acdc8a2,"Header PM_CRYSTAL; CGB 0xc0; SGB 0x00; RAM size code 0x03; checksum 0x26; global 0x18d2"
