@@ -1,0 +1,7 @@
+{
+  "schema_version":1,"generated_at":"2026-09-21","generator":{"name":"SakuraiTsubaki/Disassembly tools/inspect_gb_rom.py","version":"1.0.1"},"releases":[
+    {"id":"crystal-jp-rev0","size":2097152,"sha1":"95127b901bbce2407daf43cce9f45d4c27ef635d","sha256":"136ada06cb68656b7de475fa4b278d37dbeff8f5257e7dfdf7f4a4aec19a90f3","header":{"title":"PM_CRYSTAL","revision":0,"cgb_flag":192,"sgb_flag":0,"cartridge_type":16,"rom_size_code":6,"ram_size_code":5,"destination_code":0,"header_checksum":34,"global_checksum":39488},"validation":{"nintendo_logo_valid":true,"header_checksum_valid":true,"global_checksum_valid":true}},
+    {"id":"crystal-en-rev0","size":2097152,"sha1":"f4cd194bdee0d04ca4eac29e09b8e4e9d818c133","sha256":"d6702e353dcbe2d2c69183046c878ef13a0dae4006e8cdff521cca83dd1582fe","header":{"title":"PM_CRYSTAL","revision":0,"cgb_flag":192,"sgb_flag":0,"cartridge_type":16,"rom_size_code":6,"ram_size_code":3,"destination_code":1,"header_checksum":39,"global_checksum":4767},"validation":{"nintendo_logo_valid":true,"header_checksum_valid":true,"global_checksum_valid":true}},
+    {"id":"crystal-en-rev1","size":2097152,"sha1":"f2f52230b536214ef7c9924f483392993e226cfb","sha256":"fdcc3c8c43813cf8731fc037d2a6d191bac75439c34b24ba1c27526e6acdc8a2","header":{"title":"PM_CRYSTAL","revision":1,"cgb_flag":192,"sgb_flag":0,"cartridge_type":16,"rom_size_code":6,"ram_size_code":3,"destination_code":1,"header_checksum":38,"global_checksum":6354},"validation":{"nintendo_logo_valid":true,"header_checksum_valid":true,"global_checksum_valid":true}}
+  ]
+}
