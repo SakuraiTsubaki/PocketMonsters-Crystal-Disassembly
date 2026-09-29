@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "entry_offset": 256,
+  "entry_bytes_sha256": "8f3926056f4a79f731b9fb6b53440d27e675aead717331be6e49e5fb4ab4e94d",
+  "instructions": [
+    {
+      "address": 256,
+      "mnemonic": "nop",
+      "size": 1
+    },
+    {
+      "address": 257,
+      "mnemonic": "jp",
+      "operand": 366,
+      "size": 3
+    }
+  ],
+  "target_address": 366,
+  "source_size": 2097152,
+  "source_sha256": "d6702e353dcbe2d2c69183046c878ef13a0dae4006e8cdff521cca83dd1582fe"
+}
