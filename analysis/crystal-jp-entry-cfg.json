@@ -1,0 +1,289 @@
+{
+  "schema_version": 1,
+  "start_address": 366,
+  "max_depth": 1,
+  "blocks": [
+    {
+      "schema_version": 1,
+      "start_address": 366,
+      "end_address": 370,
+      "byte_length": 4,
+      "instruction_count": 2,
+      "block_bytes": "fe112803",
+      "block_bytes_sha256": "13a16734bb14fe12b963b1f7a7a423d8329307f81bdbedb4c18971215802eee9",
+      "instructions": [
+        {
+          "address": 366,
+          "bytes": "fe11",
+          "opcode": 254,
+          "size": 2,
+          "source": "cp $11"
+        },
+        {
+          "address": 368,
+          "bytes": "2803",
+          "opcode": 40,
+          "size": 2,
+          "source": "jr z $0175",
+          "target_address": 373
+        }
+      ],
+      "terminator": "jr z $0175",
+      "depth": 0
+    },
+    {
+      "schema_version": 1,
+      "start_address": 370,
+      "end_address": 373,
+      "byte_length": 3,
+      "instruction_count": 2,
+      "block_bytes": "af1802",
+      "block_bytes_sha256": "89e961276f0986af0309912a3c1bcd267dda5693e415a3061274950ce0d16c2e",
+      "instructions": [
+        {
+          "address": 370,
+          "bytes": "af",
+          "opcode": 175,
+          "size": 1,
+          "source": "xor a"
+        },
+        {
+          "address": 371,
+          "bytes": "1802",
+          "opcode": 24,
+          "size": 2,
+          "source": "jr $0177",
+          "target_address": 375
+        }
+      ],
+      "terminator": "jr $0177",
+      "depth": 1
+    },
+    {
+      "schema_version": 1,
+      "start_address": 373,
+      "end_address": 424,
+      "byte_length": 51,
+      "instruction_count": 26,
+      "block_bytes": "3e01e0e63e01e0eaf3afe00fe0ffe056e043e042e001e002e04be04ae047e048e049e006e007ea00d03e04e007f044fe9120fa",
+      "block_bytes_sha256": "60a30ed99d628db8df7ee410ae7bc7b5c9dcc1c5c3a0cf209e389e0545b3e1dc",
+      "instructions": [
+        {
+          "address": 373,
+          "bytes": "3e01",
+          "opcode": 62,
+          "size": 2,
+          "source": "ld a, $01"
+        },
+        {
+          "address": 375,
+          "bytes": "e0e6",
+          "opcode": 224,
+          "size": 2,
+          "source": "ldh [$ff00 + $e6], a"
+        },
+        {
+          "address": 377,
+          "bytes": "3e01",
+          "opcode": 62,
+          "size": 2,
+          "source": "ld a, $01"
+        },
+        {
+          "address": 379,
+          "bytes": "e0ea",
+          "opcode": 224,
+          "size": 2,
+          "source": "ldh [$ff00 + $ea], a"
+        },
+        {
+          "address": 381,
+          "bytes": "f3",
+          "opcode": 243,
+          "size": 1,
+          "source": "di"
+        },
+        {
+          "address": 382,
+          "bytes": "af",
+          "opcode": 175,
+          "size": 1,
+          "source": "xor a"
+        },
+        {
+          "address": 383,
+          "bytes": "e00f",
+          "opcode": 224,
+          "size": 2,
+          "source": "ldh [$ff00 + $0f], a"
+        },
+        {
+          "address": 385,
+          "bytes": "e0ff",
+          "opcode": 224,
+          "size": 2,
+          "source": "ldh [$ff00 + $ff], a"
+        },
+        {
+          "address": 387,
+          "bytes": "e056",
+          "opcode": 224,
+          "size": 2,
+          "source": "ldh [$ff00 + $56], a"
+        },
+        {
+          "address": 389,
+          "bytes": "e043",
+          "opcode": 224,
+          "size": 2,
+          "source": "ldh [$ff00 + $43], a"
+        },
+        {
+          "address": 391,
+          "bytes": "e042",
+          "opcode": 224,
+          "size": 2,
+          "source": "ldh [$ff00 + $42], a"
+        },
+        {
+          "address": 393,
+          "bytes": "e001",
+          "opcode": 224,
+          "size": 2,
+          "source": "ldh [$ff00 + $01], a"
+        },
+        {
+          "address": 395,
+          "bytes": "e002",
+          "opcode": 224,
+          "size": 2,
+          "source": "ldh [$ff00 + $02], a"
+        },
+        {
+          "address": 397,
+          "bytes": "e04b",
+          "opcode": 224,
+          "size": 2,
+          "source": "ldh [$ff00 + $4b], a"
+        },
+        {
+          "address": 399,
+          "bytes": "e04a",
+          "opcode": 224,
+          "size": 2,
+          "source": "ldh [$ff00 + $4a], a"
+        },
+        {
+          "address": 401,
+          "bytes": "e047",
+          "opcode": 224,
+          "size": 2,
+          "source": "ldh [$ff00 + $47], a"
+        },
+        {
+          "address": 403,
+          "bytes": "e048",
+          "opcode": 224,
+          "size": 2,
+          "source": "ldh [$ff00 + $48], a"
+        },
+        {
+          "address": 405,
+          "bytes": "e049",
+          "opcode": 224,
+          "size": 2,
+          "source": "ldh [$ff00 + $49], a"
+        },
+        {
+          "address": 407,
+          "bytes": "e006",
+          "opcode": 224,
+          "size": 2,
+          "source": "ldh [$ff00 + $06], a"
+        },
+        {
+          "address": 409,
+          "bytes": "e007",
+          "opcode": 224,
+          "size": 2,
+          "source": "ldh [$ff00 + $07], a"
+        },
+        {
+          "address": 411,
+          "bytes": "ea00d0",
+          "opcode": 234,
+          "size": 3,
+          "source": "ld [$d000], a",
+          "target_address": 53248
+        },
+        {
+          "address": 414,
+          "bytes": "3e04",
+          "opcode": 62,
+          "size": 2,
+          "source": "ld a, $04"
+        },
+        {
+          "address": 416,
+          "bytes": "e007",
+          "opcode": 224,
+          "size": 2,
+          "source": "ldh [$ff00 + $07], a"
+        },
+        {
+          "address": 418,
+          "bytes": "f044",
+          "opcode": 240,
+          "size": 2,
+          "source": "ldh a, [$ff00 + $44]"
+        },
+        {
+          "address": 420,
+          "bytes": "fe91",
+          "opcode": 254,
+          "size": 2,
+          "source": "cp $91"
+        },
+        {
+          "address": 422,
+          "bytes": "20fa",
+          "opcode": 32,
+          "size": 2,
+          "source": "jr nz $01a2",
+          "target_address": 418
+        }
+      ],
+      "terminator": "jr nz $01a2",
+      "depth": 1
+    }
+  ],
+  "edges": [
+    {
+      "source": 366,
+      "target": 373,
+      "kind": "branch"
+    },
+    {
+      "source": 366,
+      "target": 370,
+      "kind": "fallthrough"
+    },
+    {
+      "source": 370,
+      "target": 375,
+      "kind": "branch"
+    },
+    {
+      "source": 373,
+      "target": 418,
+      "kind": "branch"
+    },
+    {
+      "source": 373,
+      "target": 424,
+      "kind": "fallthrough"
+    }
+  ],
+  "source_size": 2097152,
+  "source_sha256": "136ada06cb68656b7de475fa4b278d37dbeff8f5257e7dfdf7f4a4aec19a90f3"
+}

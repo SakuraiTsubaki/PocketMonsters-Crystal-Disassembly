@@ -1,0 +1,5 @@
+{
+  "$schema":"https://raw.githubusercontent.com/SakuraiTsubaki/Disassembly/main/schemas/analysis-manifest.schema.json","schema_version":1,"id":"crystal-release-header-report","targets":["SakuraiTsubaki/PocketMonsters-Crystal-Disassembly"],"generator":{"name":"SakuraiTsubaki/Disassembly tools/inspect_gb_rom.py","version":"1.0.1"},"command":"python tools/inspect_gb_rom.py path/to/legally-obtained-input --require-valid","inputs":[
+    {"size":2097152,"sha256":"136ada06cb68656b7de475fa4b278d37dbeff8f5257e7dfdf7f4a4aec19a90f3"},{"size":2097152,"sha256":"d6702e353dcbe2d2c69183046c878ef13a0dae4006e8cdff521cca83dd1582fe"},{"size":2097152,"sha256":"fdcc3c8c43813cf8731fc037d2a6d191bac75439c34b24ba1c27526e6acdc8a2"}
+  ],"outputs":[{"path":"analysis/crystal-release-header-report.json","sha256":"a1930839a04fae713cca8ac921ff1e5e24c11f9c99b2b471c983e6569974bf79"}]
+}
