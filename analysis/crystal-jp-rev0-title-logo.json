@@ -1,0 +1,13 @@
+{
+  "rom_size": 2097152,
+  "rom_sha256": "136ada06cb68656b7de475fa4b278d37dbeff8f5257e7dfdf7f4a4aec19a90f3",
+  "source_offset": 1110827,
+  "compressed_length": 1566,
+  "compressed_sha256": "dc3a632b796caf00fab46a3168282c87521c76d49bdda937af42d18ade712b43",
+  "decompressed_length": 2304,
+  "decompressed_sha256": "a6c6c06f0439e9eab1e4047383c42987456d593a522e60dbc9aed70d4285a87c",
+  "tile_count": 144,
+  "tiles_per_row": 20,
+  "format": "pokemon-gen2-lz-to-game-boy-2bpp",
+  "png_sha256": "d6da5855159e5a6f9c8246c2ab0e1b216391f58c1e4052e7184388cffede2fbc"
+}

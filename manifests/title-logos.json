@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-01",
+  "generator": "SakuraiTsubaki/Disassembly tools/extract_gb_lz_2bpp.py",
+  "origin_reference": "crystal-jp-rev0",
+  "language_priority": ["ja", "en", "de", "fr", "it", "es"],
+  "korean_release": null,
+  "source_reference": {"repository":"pret/pokecrystal","commit":"5beda23ffa505f62e1dad7e3d7c214d1737b3358","code":"engine/movie/title.asm","label":"TitleLogoGFX"},
+  "artifacts": [
+    {"release":"crystal-jp-rev0","language":"ja","report":"analysis/crystal-jp-rev0-title-logo.json","png":"graphics/title/title-logo-jp.png","loader_offset":"0x10EDDA"},
+    {"release":"crystal-en-rev0","language":"en","report":"analysis/crystal-en-rev0-title-logo.json","png":"graphics/title/title-logo-en.png","loader_offset":"0x10EDF0"},
+    {"release":"crystal-en-rev1","language":"en","report":"analysis/crystal-en-rev1-title-logo.json","png":"graphics/title/title-logo-en.png","loader_offset":"0x10EDF0"},
+    {"release":"crystal-de-rev0","language":"de","report":"analysis/crystal-de-rev0-title-logo.json","png":"graphics/title/title-logo-de.png","loader_offset":"0x10EDF0"},
+    {"release":"crystal-fr-rev0","language":"fr","report":"analysis/crystal-fr-rev0-title-logo.json","png":"graphics/title/title-logo-fr.png","loader_offset":"0x10EDF0"},
+    {"release":"crystal-it-rev0","language":"it","report":"analysis/crystal-it-rev0-title-logo.json","png":"graphics/title/title-logo-it.png","loader_offset":"0x10EDF0"},
+    {"release":"crystal-es-rev0","language":"es","report":"analysis/crystal-es-rev0-title-logo.json","png":"graphics/title/title-logo-es.png","loader_offset":"0x10EDF0"}
+  ]
+}
