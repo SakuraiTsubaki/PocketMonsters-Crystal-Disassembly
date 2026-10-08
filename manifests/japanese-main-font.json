@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-08",
+  "asset": "japanese-main-font",
+  "source_offset": 1016320,
+  "source_length": 1024,
+  "reference": {"repository": "pret/pokecrystal", "source_commit": "3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6", "symbols_commit": "887a080f34ffd6a4c1b2201e266ed0599654d222", "paths": ["engine/gfx/load_font.asm", "gfx/font.asm", "pokecrystal.sym"], "font_symbol": "3e:4200", "japanese_loader_offset": 1029253},
+  "generator": {"repository": "SakuraiTsubaki/Disassembly", "commit": "1f9c7696f5071a5c546085afe50e1a23f49f645e", "tool": "tools/extract_gb_1bpp.py", "arguments": ["--offset", "0xf8200", "--tile-count", "128", "--tiles-per-row", "16"]},
+  "releases": [
+    {"id": "crystal-jp-rev0", "sha1": "95127b901bbce2407daf43cce9f45d4c27ef635d", "sha256": "136ada06cb68656b7de475fa4b278d37dbeff8f5257e7dfdf7f4a4aec19a90f3", "range_sha256": "0902d141b40af70008d3176cf4cc13f5d5a10812ffaf08ecee5752fa7e31b8ca"}
+  ],
+  "outputs": [
+    {"path": "analysis/crystal-jp-main-font.json", "sha256": "fd35f275d3684cf115f77689766129f91e8bf0295a3f1b18c35c8ffdd245f503"},
+    {"path": "graphics/font/main-font-jp.png", "sha256": "924a7bb2dd14aab6560d1376e99dae070368dcd7a05375c9c782f2217c86200f"},
+    {"path": "research/japanese-main-font.md", "sha256": "ce72f7f530ec4bb0ad90a20b8b7b29186476817f9ad8dd904d18e40f81dc7ee4"}
+  ],
+  "raw_rom_bytes_included": false
+}
