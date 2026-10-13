@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-08",
+  "asset": "english-main-font",
+  "source_offset": 1016320,
+  "source_length": 1024,
+  "reference": {"repository": "pret/pokecrystal", "source_commit": "3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6", "symbols_commit": "887a080f34ffd6a4c1b2201e266ed0599654d222", "paths": ["engine/gfx/load_font.asm", "gfx/font.asm", "gfx/font/font.png", "pokecrystal.sym"], "font_symbol": "3e:4200"},
+  "generator": {"repository": "SakuraiTsubaki/Disassembly", "commit": "1f9c7696f5071a5c546085afe50e1a23f49f645e", "tool": "tools/extract_gb_1bpp.py"},
+  "releases": [
+    {"id": "crystal-en-rev0", "sha1": "f4cd194bdee0d04ca4eac29e09b8e4e9d818c133", "sha256": "d6702e353dcbe2d2c69183046c878ef13a0dae4006e8cdff521cca83dd1582fe", "range_sha256": "2b3fe12a895c2b028aef61e94dbaacd5ddfd3ff1e4f4d3c1815daf99dfb298f7"},
+    {"id": "crystal-en-rev1", "sha1": "f2f52230b536214ef7c9924f483392993e226cfb", "sha256": "fdcc3c8c43813cf8731fc037d2a6d191bac75439c34b24ba1c27526e6acdc8a2", "range_sha256": "2b3fe12a895c2b028aef61e94dbaacd5ddfd3ff1e4f4d3c1815daf99dfb298f7"}
+  ],
+  "outputs": [
+    {"path": "analysis/crystal-en-main-font.json", "sha256": "b3b87c6d549b83f9cd21219187ac905402a1af75735ea44e386991b97ceb74d9"},
+    {"path": "graphics/font/main-font-en.png", "sha256": "a0770309776954144c25513989db6ef7d095e6bec2eafad6df9be45e1e4ed551"},
+    {"path": "research/english-main-font.md", "sha256": "62128cd4cdb17acc10303067f6513c53074322f5f990ac4eef804d98e99f3c71"}
+  ],
+  "raw_rom_bytes_included": false
+}
