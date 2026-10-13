@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-13",
+  "asset": "european-main-fonts",
+  "source_offset": 1016320,
+  "source_length": 1024,
+  "reference": {"repository": "pret/pokecrystal", "source_commit": "3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6", "symbols_commit": "887a080f34ffd6a4c1b2201e266ed0599654d222", "paths": ["engine/gfx/load_font.asm", "gfx/font.asm", "gfx/font/font.png", "pokecrystal.sym"], "font_symbol": "3e:4200"},
+  "generator": {"repository": "SakuraiTsubaki/Disassembly", "commit": "1f9c7696f5071a5c546085afe50e1a23f49f645e", "tool": "tools/extract_gb_1bpp.py"},
+  "releases": {
+    "de": {"id": "crystal-de-rev0", "sha1": "accb584293ba056152f1fd908439b019017ff2fe", "sha256": "22c0dfec9ce004dceebe280d71fa2579fa376064f70284bbf46322e163aa1160", "range_sha256": "5eb8c0af5deff7c6b4cbc7167dd0885b6cffcfc932b1905c4e9d38acdda4b850"},
+    "fr": {"id": "crystal-fr-rev0", "sha1": "c055992b16b7399c687647725cdd1f4f13a2f75c", "sha256": "178b0da870a3cc58414940412eb6473f515b8941cb83d81a1a42d05ca82749e7", "range_sha256": "5eb8c0af5deff7c6b4cbc7167dd0885b6cffcfc932b1905c4e9d38acdda4b850"},
+    "it": {"id": "crystal-it-rev0", "sha1": "6cee05e5b95beeae74b8365ad18ec4a07a8c4af8", "sha256": "2592aef20701fa1d5df5cf3343ffb4293092c911177868fa4a94698c27f7be89", "range_sha256": "a2b514b0b097d985feb645afe5a3af19884308b6259c6facb1814bae6af1b950"},
+    "es": {"id": "crystal-es-rev0", "sha1": "889a06fc0bb863666865aa69def0adf97945ac2a", "sha256": "4aacb5b3ac7a741d99f507e7c31393c015dea26a3ce8876021c50e7c761c1141", "range_sha256": "a2b514b0b097d985feb645afe5a3af19884308b6259c6facb1814bae6af1b950"}
+  },
+  "outputs": [
+    {"path": "analysis/crystal-de-main-font.json", "sha256": "8db7babe1010e1e7e5d38e0a80019089bf9effbc6c66063b10ac0f0ed0fe70fd"},
+    {"path": "analysis/crystal-fr-main-font.json", "sha256": "71699954dcb547737acf50e37b3a1124e5585f2d7aa06707c5b0050ae7a94732"},
+    {"path": "analysis/crystal-it-main-font.json", "sha256": "1fbc16d3e5796e5d88517cec22a535e79fe17f7c5421b398b53c8b5466acbbe2"},
+    {"path": "analysis/crystal-es-main-font.json", "sha256": "b668d3d87c1c1143642ba1f53dc222fdf62ebbd31c7d904ed46b08124fa9c8d7"},
+    {"path": "graphics/font/main-font-de.png", "sha256": "21d37c1d3978fbfe86e803a50c19e1a14d8cb95784e0b64932f00deac8ea188b"},
+    {"path": "graphics/font/main-font-fr.png", "sha256": "21d37c1d3978fbfe86e803a50c19e1a14d8cb95784e0b64932f00deac8ea188b"},
+    {"path": "graphics/font/main-font-it.png", "sha256": "39bb5cade88a18e7e6584068d5f5882e63d219c95cbb01c3a707a130a8626ebe"},
+    {"path": "graphics/font/main-font-es.png", "sha256": "39bb5cade88a18e7e6584068d5f5882e63d219c95cbb01c3a707a130a8626ebe"},
+    {"path": "research/european-main-fonts.md", "sha256": "948bc487d32c2548be4ffb79b4c8460f087dc43a9d37f9c66de04cadd03af152"}
+  ],
+  "raw_rom_bytes_included": false
+}
