@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "source_size": 2097152,
+  "source_sha256": "22c0dfec9ce004dceebe280d71fa2579fa376064f70284bbf46322e163aa1160",
+  "family": "crystal",
+  "loader_offset": 1029193,
+  "range_end_exclusive": 1029258,
+  "code_length": 65,
+  "code_sha256": "75725f31181fd73ef955b74c16ca4a88515d2ad31cfb5271da33d9b65197500f",
+  "font": {
+    "bank": 62,
+    "address": 16896,
+    "source_offset": 1016320,
+    "destination": 34816,
+    "tile_count": 128,
+    "chunk_tile_count": 32,
+    "format": "game-boy-1bpp-8x8-tiles"
+  },
+  "lcd_enabled_branch": {
+    "address": 1029206,
+    "disabled_target": 4004,
+    "enabled_transfer_count": 4
+  },
+  "calls": [
+    {
+      "address": 1029218,
+      "target": 3548
+    },
+    {
+      "address": 1029230,
+      "target": 3548
+    },
+    {
+      "address": 1029242,
+      "target": 3548
+    },
+    {
+      "address": 1029254,
+      "target": 3548
+    }
+  ],
+  "return_offset": 1029257,
+  "raw_bytes_published": false
+}

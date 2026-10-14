@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "release_ids": [
+    "crystal-jp-rev0",
+    "crystal-en-rev0",
+    "crystal-en-rev1",
+    "crystal-de-rev0",
+    "crystal-fr-rev0",
+    "crystal-it-rev0",
+    "crystal-es-rev0"
+  ],
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/locate_gen2_standard_font_loader.py",
+    "tool_sha256": "12b490588916e04d512041c64cc1100b9469ef77235d9fd37619d2d89bd1db77"
+  },
+  "outputs": [
+    {
+      "path": "src/load_standard_font.asm",
+      "sha256": "e1e3ece0bc52f7398300da8db66b113ca34b3fc76abb38d07cb22e6a8e8c0df1"
+    },
+    {
+      "path": "research/standard-font-loader.md",
+      "sha256": "f9354e2d56fbd80982399337560b4784b6bfc5208c6b024fe9d294e78123ac03"
+    },
+    {
+      "path": "tests/test_standard_font_loader.py",
+      "sha256": "b6cfed85f388cc31046de77ad502747ea44874687c1b61e142f4e8f8945d6bb8"
+    },
+    {
+      "path": "analysis/crystal-jp-rev0-standard-font-loader.json",
+      "sha256": "1aea4b23a95819750facfda11b82988ea2062099f5d1217bcf95c69d0f13ca13"
+    },
+    {
+      "path": "analysis/crystal-en-rev0-standard-font-loader.json",
+      "sha256": "8a6f9238098bf5b16731598516f7e9afa6d69519296db9ab591c3da05f91bde3"
+    },
+    {
+      "path": "analysis/crystal-en-rev1-standard-font-loader.json",
+      "sha256": "f38b001c5a96253efe893e09d0e510a517fc6600bc71537f0f11d3a6f4dadc77"
+    },
+    {
+      "path": "analysis/crystal-de-rev0-standard-font-loader.json",
+      "sha256": "f0be9833c07a4b1b8b6c2d7d6c24a3eed68770870cb2d73a8ac64eaa171cfd9f"
+    },
+    {
+      "path": "analysis/crystal-fr-rev0-standard-font-loader.json",
+      "sha256": "962ba0e316bc0b51660af6bd43b06c00afe8f3c8ea61248cd540463040f46c2c"
+    },
+    {
+      "path": "analysis/crystal-it-rev0-standard-font-loader.json",
+      "sha256": "fb2caecf516a5af8af46d317583698297e5119546c8374f01c8020c804502bf6"
+    },
+    {
+      "path": "analysis/crystal-es-rev0-standard-font-loader.json",
+      "sha256": "b9f293f3d51cacd4c719966582c208aa51363c17ae6d49855f914d817a78f4c9"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
