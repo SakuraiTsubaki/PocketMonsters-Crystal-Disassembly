@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "crystal-fr-rev0",
+    "sha256": "178b0da870a3cc58414940412eb6473f515b8941cb83d81a1a42d05ca82749e7"
+  },
+  "function": {
+    "name": "_BattleRandom",
+    "rom_offset": 257499,
+    "bank": 15,
+    "address": 28123,
+    "range_end_exclusive": 257554,
+    "length": 55,
+    "code_sha256": "84b46eeb56311ece577b4cbfd1e60a99ca369a5e3aab19d1e977fe85a1787ce5",
+    "state": {
+      "wLinkMode": 49884,
+      "wLinkBattleRNCount": 50917,
+      "wLinkBattleRNs": 53754,
+      "stream_length": 10
+    },
+    "control_flow": {
+      "non_link_jump": {
+        "bank": 0,
+        "address": 12153
+      },
+      "early_return_offset": 28,
+      "refresh_loop_offset": 41,
+      "refresh_loop_back_edge": {
+        "from_offset": 49,
+        "to_offset": 41
+      }
+    },
+    "prng": {
+      "formula": "seed = (seed * 5 + 1) mod 256",
+      "seed_count": 10
+    }
+  },
+  "semantics": {
+    "non_link": "tail-jump to Random",
+    "link": "consume a shared 10-byte stream and refresh every seed with a 5x+1 LCG",
+    "synchronization": "shared link state avoids peer RNG desynchronization",
+    "return_register": "A"
+  },
+  "naming_basis": {
+    "repository": "pret/pokecrystal",
+    "commit": "3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6",
+    "path": "engine/battle/core.asm",
+    "raw_rom_bytes_published": false
+  },
+  "raw_rom_bytes_included": false
+}
