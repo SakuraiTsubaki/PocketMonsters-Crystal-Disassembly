@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "crystal-it-rev0",
+    "sha256": "2592aef20701fa1d5df5cf3343ffb4293092c911177868fa4a94698c27f7be89"
+  },
+  "function": {
+    "name": "RandomRange",
+    "rom_offset": 12191,
+    "bank": 0,
+    "address": 12191,
+    "range_end_exclusive": 12217,
+    "length": 26,
+    "code_sha256": "7bdbcf0bb99eec254aad226273306b7fc61cf8dd38c2702a3b8fa3dda0c96f4c",
+    "dependencies": {
+      "Random": {
+        "bank": 0,
+        "address": 12154
+      },
+      "hRandomAdd": 65505,
+      "SimpleDivide": {
+        "bank": 0,
+        "address": 12542
+      }
+    },
+    "control_flow": {
+      "modulo_loop": {
+        "from_offset": 5,
+        "to_offset": 4
+      },
+      "rejection_loop": {
+        "from_offset": 17,
+        "to_offset": 10
+      }
+    },
+    "input": "A (exclusive upper bound)",
+    "output": "A (uniform value below input for nonzero input)"
+  },
+  "semantics": {
+    "method": "rejection sampling followed by SimpleDivide",
+    "bias_control": "reject values in the incomplete high tail",
+    "valid_input": "1..255",
+    "return_register": "A"
+  },
+  "naming_basis": {
+    "repository": "pret/pokecrystal",
+    "commit": "3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6",
+    "path": "home/random.asm",
+    "raw_rom_bytes_published": false
+  },
+  "raw_rom_bytes_included": false
+}

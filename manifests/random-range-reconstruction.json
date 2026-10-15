@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "function": "RandomRange",
+  "releases": [
+    "crystal-jp-rev0",
+    "crystal-en-rev0",
+    "crystal-en-rev1",
+    "crystal-de-rev0",
+    "crystal-fr-rev0",
+    "crystal-it-rev0",
+    "crystal-es-rev0"
+  ],
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/inspect_gen2_random_range.py",
+    "tool_sha256": "f67b280ecec8cd9f7286918de191b4bf4adda43eced87cf62323f990fcacee0b"
+  },
+  "outputs": [
+    {
+      "path": "src/random_range.asm",
+      "sha256": "1312853c102688c4aeffc25242af188d8333dcb50a2fa9bac22b55d5fd5bfce6"
+    },
+    {
+      "path": "analysis/crystal-jp-rev0-random-range.json",
+      "sha256": "3beb251a9bdf88588b4c4f9768cecfb4ae8884be7d04950dcccdd2f235036de1"
+    },
+    {
+      "path": "analysis/crystal-en-rev0-random-range.json",
+      "sha256": "ed3b6987a2643946f742e692ba476365423f23a4c4d9876c1eea48a803f072e1"
+    },
+    {
+      "path": "analysis/crystal-en-rev1-random-range.json",
+      "sha256": "994862fe7facabf9c1400eadeee90022bd439648b7b8c8ab2a42e84472f07adf"
+    },
+    {
+      "path": "analysis/crystal-de-rev0-random-range.json",
+      "sha256": "85c3f023ef567c696cb03aaa649503c446e4e65bb15d61388d5101de9f687e3e"
+    },
+    {
+      "path": "analysis/crystal-fr-rev0-random-range.json",
+      "sha256": "d4408938e904b9c0413bb420d179851b1993fdb054ca223395477f974987f8b1"
+    },
+    {
+      "path": "analysis/crystal-it-rev0-random-range.json",
+      "sha256": "3a8d72e598888f26c4ef6ada4eaa25ae1d33f715543ffa9a7595fdf931e49828"
+    },
+    {
+      "path": "analysis/crystal-es-rev0-random-range.json",
+      "sha256": "d1e5ad27ebfff4767ed8470dccf13573613011a3d9a4b50c9511a0b7e1234ccb"
+    },
+    {
+      "path": "research/random-range-reconstruction.md",
+      "sha256": "562a1cfc21833eb981491b0c52dd99c1780a2538e0361d06e549b12a7ee6997f"
+    },
+    {
+      "path": "tests/test_random_range_reconstruction.py",
+      "sha256": "f44fe02d223f8bd4219aa58ce0b8cf5f9d91bdf77ca9f2da325f46fb8ba91c92"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
