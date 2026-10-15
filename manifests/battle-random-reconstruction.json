@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "function": "BattleRandom",
+  "releases": [
+    "crystal-jp-rev0",
+    "crystal-en-rev0",
+    "crystal-en-rev1",
+    "crystal-de-rev0",
+    "crystal-fr-rev0",
+    "crystal-it-rev0",
+    "crystal-es-rev0"
+  ],
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/locate_gen2_battle_random.py",
+    "tool_sha256": "7c191d861bb4881c4d4c780b8de05740266170facea6497bdc74a4a95fda7caf"
+  },
+  "outputs": [
+    {
+      "path": "src/battle_random.asm",
+      "sha256": "f5799e61f36189dec8bbdd55f19bd638772b8d75710ea5ed3e75869180ef7914"
+    },
+    {
+      "path": "analysis/crystal-jp-rev0-battle-random.json",
+      "sha256": "82b4845da0eee04cc81a2064466a488ee9252d4334fac3421c76565bb00c21dd"
+    },
+    {
+      "path": "analysis/crystal-en-rev0-battle-random.json",
+      "sha256": "68179ca10e8a62ef6ae6100a7243ced8fcd10922d7b8b407e69abaeaed43e6f4"
+    },
+    {
+      "path": "analysis/crystal-en-rev1-battle-random.json",
+      "sha256": "c9592b1e621aa983772a780eae21e65f07f327e17a816b2a5518d0b233474048"
+    },
+    {
+      "path": "analysis/crystal-de-rev0-battle-random.json",
+      "sha256": "fbe993e2e1ee3d04ae3d76dcaf080edd7d94d40064e63ad5e9a70c3481d5e17f"
+    },
+    {
+      "path": "analysis/crystal-fr-rev0-battle-random.json",
+      "sha256": "2ddb80cf69fa219d4c1e662423bca09acf7d27d135c79d203a186d9114913e3f"
+    },
+    {
+      "path": "analysis/crystal-it-rev0-battle-random.json",
+      "sha256": "08b029639d5296c715863ef9cca1024f1fb26a263f785c6429e193bdc242e204"
+    },
+    {
+      "path": "analysis/crystal-es-rev0-battle-random.json",
+      "sha256": "d0653a545bfdc02702fb5e2cac6bebb253d9e2637cbd8ad85504cce418d72b82"
+    },
+    {
+      "path": "research/battle-random-reconstruction.md",
+      "sha256": "a07e0608d028951f922423881f04851683608bea03fd33d6f11e80d599fc0e00"
+    },
+    {
+      "path": "tests/test_battle_random_reconstruction.py",
+      "sha256": "c334b24a91fa165c84423f75364b7b001c39b1c99300d0006ce21f123e8cc19d"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

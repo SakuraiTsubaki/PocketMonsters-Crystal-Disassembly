@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "crystal-jp-rev0",
+    "sha256": "136ada06cb68656b7de475fa4b278d37dbeff8f5257e7dfdf7f4a4aec19a90f3"
+  },
+  "function": {
+    "name": "BattleRandom",
+    "rom_offset": 12145,
+    "bank": 0,
+    "address": 12145,
+    "range_end_exclusive": 12163,
+    "length": 18,
+    "code_sha256": "728c99bbfcc102a5decf2239c813026b2a470223d8427f5c1199fe419adc1222",
+    "hROMBank": 65437,
+    "bank_switch": {
+      "opcode": "RST $10",
+      "vector": 16
+    },
+    "target": {
+      "bank": 15,
+      "address": 28138,
+      "rom_offset": 257514
+    },
+    "temporary_wram": 53162
+  },
+  "semantics": {
+    "operation": "bank-switch call to _BattleRandom with A preserved through WRAM",
+    "return_register": "A",
+    "placement": "immediately follows the verified Random routine"
+  },
+  "naming_basis": {
+    "repository": "pret/pokecrystal",
+    "commit": "3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6",
+    "path": "home/random.asm",
+    "raw_rom_bytes_published": false
+  },
+  "raw_rom_bytes_included": false
+}
