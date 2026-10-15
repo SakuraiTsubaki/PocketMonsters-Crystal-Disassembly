@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "function": "SimpleDivide",
+  "releases": [
+    "crystal-jp-rev0",
+    "crystal-en-rev0",
+    "crystal-en-rev1",
+    "crystal-de-rev0",
+    "crystal-fr-rev0",
+    "crystal-it-rev0",
+    "crystal-es-rev0"
+  ],
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/inspect_gen2_simple_divide.py",
+    "tool_sha256": "d6f444547505cb690cd265fe529ddad1bea82e0f31ea450f921b9ee00317ab16"
+  },
+  "outputs": [
+    {
+      "path": "src/simple_divide.asm",
+      "sha256": "3493d043db1a5bda77be24d84fcdac5efa34238c17503b11e230f8bafa5f09b7"
+    },
+    {
+      "path": "analysis/crystal-jp-rev0-simple-divide.json",
+      "sha256": "d1c5561c83edd33ba1cf76466505143de61466dbef99a27b9df7056229267999"
+    },
+    {
+      "path": "analysis/crystal-en-rev0-simple-divide.json",
+      "sha256": "e96f6feff5ce91dd9d505a67d0ec3d0d77a1f03cba1194b06b7efe05e264edf0"
+    },
+    {
+      "path": "analysis/crystal-en-rev1-simple-divide.json",
+      "sha256": "c79da228d5b868d426c48d7707307e85d6d5838440b40576c43933e99d5b6286"
+    },
+    {
+      "path": "analysis/crystal-de-rev0-simple-divide.json",
+      "sha256": "8e4934b8b79d6101e8c8fd4fabf0b064df3b2984f28b600d6d80636e6b379362"
+    },
+    {
+      "path": "analysis/crystal-fr-rev0-simple-divide.json",
+      "sha256": "85542fe86a787856e82e6e658cbe4a87154056f0a92d11e12417f6a751331ee8"
+    },
+    {
+      "path": "analysis/crystal-it-rev0-simple-divide.json",
+      "sha256": "d4857f36aa84b585fdfb33975cf965c9346378053fb1e707cab41c419af7e7e1"
+    },
+    {
+      "path": "analysis/crystal-es-rev0-simple-divide.json",
+      "sha256": "b2a3e5b8d9ca8ec00e502bfe05023cc5b8661b25277c30920ded1a92cb4cb189"
+    },
+    {
+      "path": "research/simple-divide-reconstruction.md",
+      "sha256": "8fded9a7f9f45513262dab5bcdcb1352f7b89591a832b66b0f015c7c265db0e8"
+    },
+    {
+      "path": "tests/test_simple_divide_reconstruction.py",
+      "sha256": "1942ee116afa5fb23df3283cbafbac5791d003a0e0eeb1292351d1342fc595c8"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

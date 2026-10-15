@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "crystal-it-rev0",
+    "sha256": "2592aef20701fa1d5df5cf3343ffb4293092c911177868fa4a94698c27f7be89"
+  },
+  "function": {
+    "name": "SimpleDivide",
+    "rom_offset": 12542,
+    "bank": 0,
+    "address": 12542,
+    "range_end_exclusive": 12551,
+    "length": 9,
+    "code_sha256": "076069c0b328a081fe3c9743adb8359b5739d024cbe928ee03b1e57e97cf357a",
+    "input": {
+      "dividend": "A",
+      "divisor": "C"
+    },
+    "output": {
+      "quotient": "B",
+      "remainder": "A"
+    },
+    "control_flow": {
+      "subtract_loop": {
+        "from_offset": 4,
+        "to_offset": 2
+      }
+    }
+  },
+  "semantics": {
+    "operation": "unsigned A / C by repeated subtraction",
+    "precondition": "C is nonzero",
+    "quotient_register": "B",
+    "remainder_register": "A"
+  },
+  "naming_basis": {
+    "repository": "pret/pokecrystal",
+    "commit": "3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6",
+    "path": "home/math.asm",
+    "raw_rom_bytes_published": false
+  },
+  "raw_rom_bytes_included": false
+}
