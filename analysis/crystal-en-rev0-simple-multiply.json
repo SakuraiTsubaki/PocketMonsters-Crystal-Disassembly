@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "crystal-en-rev0",
+    "sha256": "d6702e353dcbe2d2c69183046c878ef13a0dae4006e8cdff521cca83dd1582fe"
+  },
+  "function": {
+    "name": "SimpleMultiply",
+    "rom_offset": 12549,
+    "bank": 0,
+    "address": 12549,
+    "range_end_exclusive": 12560,
+    "length": 11,
+    "code_sha256": "119373c2eb1f2a4adf118de2232d5e86acb90e3f45cbc31bcd01c0e5fcaa6b2c",
+    "loop": {
+      "body_offset": 12554,
+      "conditional_branch_offset": 12556,
+      "target_offset": 12554
+    },
+    "zero_shortcut": true,
+    "preserved_registers": [
+      "BC"
+    ]
+  },
+  "semantics": {
+    "operation": "unsigned repeated-add multiplication",
+    "input": "A and C",
+    "output": "A = A * C modulo 256",
+    "zero_case": "A = 0 returns immediately",
+    "register_preservation": "BC is restored"
+  },
+  "naming_basis": {
+    "repository": "pret/pokecrystal",
+    "commit": "3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6",
+    "path": "home/math.asm",
+    "raw_rom_bytes_published": false
+  },
+  "raw_rom_bytes_included": false
+}
