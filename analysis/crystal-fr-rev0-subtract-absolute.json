@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "crystal-fr-rev0",
+    "sha256": "178b0da870a3cc58414940412eb6473f515b8941cb83d81a1a42d05ca82749e7"
+  },
+  "function": {
+    "name": "SubtractAbsolute",
+    "rom_offset": 12579,
+    "bank": 0,
+    "address": 12579,
+    "range_end_exclusive": 12586,
+    "length": 7,
+    "code_sha256": "502ad61bdad33ed4aa24d44acb7ccd327b46811e2f21e8b98d9ccb5b34dad3ba",
+    "nonnegative_return_offset": 12580,
+    "negative_path_offset": 12581,
+    "preserved_registers": [
+      "BC",
+      "DE",
+      "HL"
+    ]
+  },
+  "semantics": {
+    "operation": "absolute unsigned difference",
+    "input": "A and B",
+    "output": "A = |A - B|",
+    "carry": "set exactly when the original A was less than B",
+    "reference_status": "unreferenced in the reference source"
+  },
+  "naming_basis": {
+    "repository": "pret/pokecrystal",
+    "commit": "3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6",
+    "path": "home/math.asm",
+    "raw_rom_bytes_published": false
+  },
+  "raw_rom_bytes_included": false
+}
