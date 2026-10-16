@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "crystal-de-rev0",
+    "sha256": "22c0dfec9ce004dceebe280d71fa2579fa376064f70284bbf46322e163aa1160"
+  },
+  "function": {
+    "name": "_Multiply",
+    "rom_offset": 26367,
+    "bank": 1,
+    "address": 26367,
+    "range_end_exclusive": 26463,
+    "length": 96,
+    "code_sha256": "a3d69fd4f7535c1cb1c25f5cf608f7c88dec9cf2db6f038ffab27b08e71bb7ce",
+    "iterations": 8,
+    "algorithm": "shift-add",
+    "hram_layout": {
+      "multiplicand_minus_1": 65459,
+      "multiplicand": [
+        65460,
+        65461,
+        65462
+      ],
+      "multiplier": 65463,
+      "math_buffer_1_to_4": [
+        65465,
+        65466,
+        65467,
+        65468
+      ],
+      "product": [
+        65459,
+        65460,
+        65461,
+        65462
+      ]
+    }
+  },
+  "semantics": {
+    "operation": "three-byte multiplicand times one-byte multiplier using eight shift-add iterations",
+    "input": "hMultiplicand and hMultiplier",
+    "output": "four-byte hProduct",
+    "endianness": "big-endian"
+  },
+  "boundary_evidence": {
+    "start": "Multiply far-call target",
+    "end": "Divide homecall target"
+  },
+  "naming_basis": {
+    "repository": "pret/pokecrystal",
+    "commit": "3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6",
+    "path": "engine/math/math.asm",
+    "raw_rom_bytes_published": false
+  },
+  "raw_rom_bytes_included": false
+}
