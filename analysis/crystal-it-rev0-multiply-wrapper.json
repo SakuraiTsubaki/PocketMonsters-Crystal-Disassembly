@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "crystal-it-rev0",
+    "sha256": "2592aef20701fa1d5df5cf3343ffb4293092c911177868fa4a94698c27f7be89"
+  },
+  "function": {
+    "name": "Multiply",
+    "rom_offset": 12551,
+    "bank": 0,
+    "address": 12551,
+    "range_end_exclusive": 12562,
+    "length": 11,
+    "code_sha256": "3e23e8f32342e0d6e94157f5f41028a7c022878eb39b1043765dfb8b43b530f7",
+    "far_call": {
+      "rst_opcode": "RST $08",
+      "vector": 8,
+      "target": {
+        "bank": 1,
+        "address": 26359,
+        "rom_offset": 26359
+      }
+    },
+    "preserved_registers": [
+      "BC",
+      "HL"
+    ]
+  },
+  "semantics": {
+    "operation": "preserve HL/BC and far-call _Multiply",
+    "input": "hMultiplicand (3 bytes) and hMultiplier",
+    "output": "hProduct",
+    "register_preservation": "BC and HL are restored"
+  },
+  "naming_basis": {
+    "repository": "pret/pokecrystal",
+    "commit": "3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6",
+    "path": "home/math.asm",
+    "macro_path": "macros/farcall.asm",
+    "raw_rom_bytes_published": false
+  },
+  "raw_rom_bytes_included": false
+}

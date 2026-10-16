@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "function": "Multiply",
+  "releases": [
+    "crystal-jp-rev0",
+    "crystal-en-rev0",
+    "crystal-en-rev1",
+    "crystal-de-rev0",
+    "crystal-fr-rev0",
+    "crystal-it-rev0",
+    "crystal-es-rev0"
+  ],
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/inspect_gen2_multiply_wrapper.py",
+    "tool_sha256": "ae7146ce43c877c585c795fc2c3e670d8bb29f858d3b669bdbca9aa672a7b0dd"
+  },
+  "outputs": [
+    {
+      "path": "src/multiply_wrapper.asm",
+      "sha256": "21ff259f9fe625e0f1352e00d78a420dd8393853e9de1b79729d2e86d0a97014"
+    },
+    {
+      "path": "analysis/crystal-jp-rev0-multiply-wrapper.json",
+      "sha256": "0ec11464ff721ea974f6fdc27f7258dc12df6b066f5eed5952df480740447e85"
+    },
+    {
+      "path": "analysis/crystal-en-rev0-multiply-wrapper.json",
+      "sha256": "879a3fb3e0956ab0d43ca0618c33f56927a6d8dd6801facf9fa3e752939f83b2"
+    },
+    {
+      "path": "analysis/crystal-en-rev1-multiply-wrapper.json",
+      "sha256": "24a4395aa781f53047d7eba91452420888834ca4a7edaf2b24ba41fb274ac6ce"
+    },
+    {
+      "path": "analysis/crystal-de-rev0-multiply-wrapper.json",
+      "sha256": "1feac9cc464610792e6a39ed143167ec11eb2b68415b9c0989e09b6af2e26023"
+    },
+    {
+      "path": "analysis/crystal-fr-rev0-multiply-wrapper.json",
+      "sha256": "594ed6e912b79415bda1fd1537c9b8a7ffcca7376a97c596f9891776f6995cab"
+    },
+    {
+      "path": "analysis/crystal-it-rev0-multiply-wrapper.json",
+      "sha256": "ba2ddf592576299050e98152bbe9c84d92eca4cb6c505108de63c7f94dfdea62"
+    },
+    {
+      "path": "analysis/crystal-es-rev0-multiply-wrapper.json",
+      "sha256": "e8c4460e43162e5bd8e91c2fff7b847eb7aa129f177642ceeba35783ef6b5ecb"
+    },
+    {
+      "path": "research/multiply-wrapper-reconstruction.md",
+      "sha256": "3d47e2de5d3097339fbedd2442b40c1187dee83d6498c4bf4206988ff42b5c31"
+    },
+    {
+      "path": "tests/test_multiply_wrapper_reconstruction.py",
+      "sha256": "f79b2f90e6365f770c56f407ea95934d7ac2d6d1da566a5ec3804ff675581439"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
