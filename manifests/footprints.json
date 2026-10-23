@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "game": "Pokemon Crystal",
+  "asset": "Footprints",
+  "origin_reference": "crystal-jp-rev0",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/extract_gen2_footprints.py",
+    "tool_sha256": "6775a402ea413c62eb4e19db7c63f0fd3faa309eb1f119cb4732fcd68a41a31b"
+  },
+  "outputs": [
+    {
+      "path": "graphics/pokemon/footprints-atlas.png",
+      "sha256": "137ad03c5f4befa6ed97e100dd095823d5e0d85892f1397f7dd48752b4492cfc"
+    },
+    {
+      "path": "graphics/pokemon/footprints-atlas.json",
+      "sha256": "a5a5d8304af975dadb52bedb3535783d7a1a7cc66c706c5c380ed6e93aafae9b"
+    },
+    {
+      "path": "analysis/crystal-jp-rev0-footprints.json",
+      "sha256": "4488562ecf9931fb4825bb62d288f721109a7ce0320fbad10a6ab4022ca7d1c0"
+    },
+    {
+      "path": "analysis/crystal-en-rev0-footprints.json",
+      "sha256": "b23ca55305cfa42462d4ba30b4ed3f65595675c1f569e3be43335278854d54b7"
+    },
+    {
+      "path": "analysis/crystal-en-rev1-footprints.json",
+      "sha256": "c169c80711103a11ff634f80c5890899353ead8cf1f67bd3f56be6623e10e076"
+    },
+    {
+      "path": "analysis/crystal-de-rev0-footprints.json",
+      "sha256": "b2c6fd52b18945c774bbe7583b6dcce297b713572dcb8da8fa07e688f10e25da"
+    },
+    {
+      "path": "analysis/crystal-fr-rev0-footprints.json",
+      "sha256": "eabab1d9c28214b559a0c7924955a9d068f7aa983eccfef2834e05e9fe64fd9c"
+    },
+    {
+      "path": "analysis/crystal-it-rev0-footprints.json",
+      "sha256": "df394a1013ff55bc99261aa13a0af5dc1566f6c812f4122f0db941464085ba62"
+    },
+    {
+      "path": "analysis/crystal-es-rev0-footprints.json",
+      "sha256": "069579593cb389e1b22493129ed86334b8e7c627f4b83fcd5b06f3b8bcfe4650"
+    },
+    {
+      "path": "analysis/footprints-summary.json",
+      "sha256": "11fc1abaa22e81ac6729dd39e25f524691c601bbd96bbbe62c0d96160d7c4fd6"
+    },
+    {
+      "path": "research/footprints.md",
+      "sha256": "01c9ceb12adc04748a3b7082b0bb2c7619c1eca5a6994b2fc52b5d9263fc2832"
+    },
+    {
+      "path": "tests/test_footprints.py",
+      "sha256": "66edd691858d5f50e5ed679cc2b0f131d9e9eb459e8f1515044aeac653c00883"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

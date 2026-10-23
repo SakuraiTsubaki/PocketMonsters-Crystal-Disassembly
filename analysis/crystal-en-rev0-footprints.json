@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "crystal-en-rev0",
+    "sha256": "d6702e353dcbe2d2c69183046c878ef13a0dae4006e8cdff521cca83dd1582fe"
+  },
+  "asset": {
+    "name": "Footprints",
+    "source_offset": 1020980,
+    "source_length": 8192,
+    "source_sha256": "f4cace658ec069903ac01dcceac2d1a637a74bb88ee84ed448482f521d977de9",
+    "format": "game-boy-1bpp-8x8-tiles",
+    "tile_count": 1024,
+    "footprint_slots": 256,
+    "tiles_per_footprint": 4
+  },
+  "outputs": [
+    {
+      "path": "graphics/pokemon/footprints-atlas.png",
+      "sha256": "137ad03c5f4befa6ed97e100dd095823d5e0d85892f1397f7dd48752b4492cfc",
+      "width": 256,
+      "height": 1024,
+      "scale": 2
+    },
+    {
+      "path": "graphics/pokemon/footprints-atlas.json",
+      "sha256": "a5a5d8304af975dadb52bedb3535783d7a1a7cc66c706c5c380ed6e93aafae9b"
+    }
+  ],
+  "origin_reference": false,
+  "naming_basis": {
+    "repository": "pret/pokecrystal",
+    "commit": "5c877ef55197039c9676e8e3eec6d254b1c40fe8",
+    "path": "gfx/footprints.asm",
+    "raw_rom_bytes_published": false
+  },
+  "raw_rom_bytes_included": false
+}
