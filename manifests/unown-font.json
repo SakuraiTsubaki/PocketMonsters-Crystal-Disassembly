@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "game": "Pokemon Crystal",
+  "asset": "UnownFont",
+  "origin_reference": "crystal-jp-rev0",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/extract_gen2_unown_font.py",
+    "tool_sha256": "8df9ba498c0740503c02de225deeb6b8665eafa8acc4dbf60364d4bd0a1a9c76"
+  },
+  "outputs": [
+    {
+      "path": "graphics/font/unown-font.png",
+      "sha256": "5491e2f08b803a18aa1bc4816e2f94b623a9b6989a4f05165eac6bbc1f8c8b0d"
+    },
+    {
+      "path": "analysis/crystal-jp-rev0-unown-font.json",
+      "sha256": "6ed1818550ed82965e887e113a4850cd2617645c9d4e837dedd5b5f11bee0643"
+    },
+    {
+      "path": "analysis/crystal-en-rev0-unown-font.json",
+      "sha256": "74d031aa8f509791ee4489fea36282c5ad6b128b46f8493b75eecdf3016fc7e0"
+    },
+    {
+      "path": "analysis/crystal-en-rev1-unown-font.json",
+      "sha256": "36229a31d531f48e2bf8df922a8f1f935d44c4706f0eed51f9e3b162182b2abc"
+    },
+    {
+      "path": "analysis/crystal-de-rev0-unown-font.json",
+      "sha256": "fbd8a2ada2c6dfb5afa3f53983236ef58136f31d695be896c7bcf5f279691f75"
+    },
+    {
+      "path": "analysis/crystal-fr-rev0-unown-font.json",
+      "sha256": "c50b16b4a7c79188de50998d3c58a29afcc3d6e2a7dae3c2bf3baa4285dcee10"
+    },
+    {
+      "path": "analysis/crystal-it-rev0-unown-font.json",
+      "sha256": "f99e7cd6ea18315b42f5ac4a3137a1f0cbd4f9f46ace06a3a1ecfae5aef1e2d2"
+    },
+    {
+      "path": "analysis/crystal-es-rev0-unown-font.json",
+      "sha256": "13adb057c33262ebe529ca5734961790a2d9598fb1684528728bbf476a175863"
+    },
+    {
+      "path": "analysis/unown-font-summary.json",
+      "sha256": "412fce9fef4d80cf44b664ed804c1e7e3723de8a55ae731d57795135403e7c31"
+    },
+    {
+      "path": "research/unown-font.md",
+      "sha256": "f77696bf3970a8fbce0f98689fc7129a29fc88edf13250c5fd71117478afe1df"
+    },
+    {
+      "path": "tests/test_unown_font.py",
+      "sha256": "f5cf157c52926a643ea7021a504c370fc4807171963747a44fc60add368a2ad4"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
