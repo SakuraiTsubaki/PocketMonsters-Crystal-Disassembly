@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "game": "Pokemon Crystal",
+  "asset": "PartyIcons",
+  "origin_reference": "crystal-jp-rev0",
+  "release_count": 7,
+  "source_sha256": "c06b31c95d7bd0c80b17ca9d1a7e7d55c1cb0f2f4f0eb302e5c1d7547f755c77",
+  "icon_count": 38,
+  "png": "graphics/pokemon/party-icons-atlas.png",
+  "layout": "graphics/pokemon/party-icons-atlas.json",
+  "releases": [
+    {
+      "id": "crystal-jp-rev0",
+      "language": "Japanese",
+      "revision": 0,
+      "sha256": "136ada06cb68656b7de475fa4b278d37dbeff8f5257e7dfdf7f4a4aec19a90f3",
+      "origin_reference": true,
+      "evidence": "analysis/crystal-jp-rev0-party-icons.json",
+      "source_offset": 584717
+    },
+    {
+      "id": "crystal-en-rev0",
+      "language": "English",
+      "revision": 0,
+      "sha256": "d6702e353dcbe2d2c69183046c878ef13a0dae4006e8cdff521cca83dd1582fe",
+      "origin_reference": false,
+      "evidence": "analysis/crystal-en-rev0-party-icons.json",
+      "source_offset": 584717
+    },
+    {
+      "id": "crystal-en-rev1",
+      "language": "English",
+      "revision": 1,
+      "sha256": "fdcc3c8c43813cf8731fc037d2a6d191bac75439c34b24ba1c27526e6acdc8a2",
+      "origin_reference": false,
+      "evidence": "analysis/crystal-en-rev1-party-icons.json",
+      "source_offset": 584717
+    },
+    {
+      "id": "crystal-de-rev0",
+      "language": "German",
+      "revision": 0,
+      "sha256": "22c0dfec9ce004dceebe280d71fa2579fa376064f70284bbf46322e163aa1160",
+      "origin_reference": false,
+      "evidence": "analysis/crystal-de-rev0-party-icons.json",
+      "source_offset": 584717
+    },
+    {
+      "id": "crystal-fr-rev0",
+      "language": "French",
+      "revision": 0,
+      "sha256": "178b0da870a3cc58414940412eb6473f515b8941cb83d81a1a42d05ca82749e7",
+      "origin_reference": false,
+      "evidence": "analysis/crystal-fr-rev0-party-icons.json",
+      "source_offset": 584717
+    },
+    {
+      "id": "crystal-it-rev0",
+      "language": "Italian",
+      "revision": 0,
+      "sha256": "2592aef20701fa1d5df5cf3343ffb4293092c911177868fa4a94698c27f7be89",
+      "origin_reference": false,
+      "evidence": "analysis/crystal-it-rev0-party-icons.json",
+      "source_offset": 584717
+    },
+    {
+      "id": "crystal-es-rev0",
+      "language": "Spanish",
+      "revision": 0,
+      "sha256": "4aacb5b3ac7a741d99f507e7c31393c015dea26a3ce8876021c50e7c761c1141",
+      "origin_reference": false,
+      "evidence": "analysis/crystal-es-rev0-party-icons.json",
+      "source_offset": 584717
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
