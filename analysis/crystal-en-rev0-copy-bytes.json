@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "crystal-en-rev0",
+    "sha256": "d6702e353dcbe2d2c69183046c878ef13a0dae4006e8cdff521cca83dd1582fe"
+  },
+  "function": {
+    "name": "CopyBytes",
+    "rom_offset": 12326,
+    "bank": 0,
+    "address": 12326,
+    "range_end_exclusive": 12340,
+    "length": 14,
+    "code_sha256": "9364deaa0f942c15dcd1ab29a953a4c5a14c0916e877a9e67cee53dc09e3e028"
+  },
+  "semantics": {
+    "source": "HL",
+    "destination": "DE",
+    "length": "BC",
+    "operation": "copy BC bytes while incrementing HL and DE",
+    "zero_length_supported": true,
+    "return_registers": "HL and DE point one byte past their ranges; BC is zero",
+    "loop_strategy": "increment B and C before split 8-bit countdowns to include final runs"
+  },
+  "naming_basis": {
+    "repository": "pret/pokecrystal",
+    "commit": "3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6",
+    "path": "home/copy.asm",
+    "raw_rom_bytes_published": false
+  },
+  "raw_rom_bytes_included": false
+}

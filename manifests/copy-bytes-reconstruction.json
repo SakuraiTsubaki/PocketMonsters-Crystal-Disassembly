@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "function": "CopyBytes",
+  "releases": [
+    "crystal-jp-rev0",
+    "crystal-en-rev0",
+    "crystal-en-rev1",
+    "crystal-de-rev0",
+    "crystal-fr-rev0",
+    "crystal-it-rev0",
+    "crystal-es-rev0"
+  ],
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/locate_gen2_copy_bytes.py",
+    "tool_sha256": "0284696013f16099ef9e72eeb16424b03d21823584c994db2f8a0fdbcf374d54"
+  },
+  "outputs": [
+    {
+      "path": "src/copy_bytes.asm",
+      "sha256": "37e85953166e76692be01f132cb8fcc404c392bd378e075c0663ec240579a641"
+    },
+    {
+      "path": "analysis/crystal-jp-rev0-copy-bytes.json",
+      "sha256": "b6d2eec097ffed8e10c8794b640d5cdf01c48c02d587d9e5fd97bd275cb19a05"
+    },
+    {
+      "path": "analysis/crystal-en-rev0-copy-bytes.json",
+      "sha256": "14c5bcf267ac794c44a2acdc413a90edf0c0d415cfb27e11b6c7807195d86aa5"
+    },
+    {
+      "path": "analysis/crystal-en-rev1-copy-bytes.json",
+      "sha256": "fcb593c77eee5bd4481421b094e014d8c7f6556ea53986b0d9ab16dc2f7b3e6a"
+    },
+    {
+      "path": "analysis/crystal-de-rev0-copy-bytes.json",
+      "sha256": "1592d6ae2e34ff15b7962c50d034daf6fe7a632bb051dc9bfb974bc3cc0f98c2"
+    },
+    {
+      "path": "analysis/crystal-fr-rev0-copy-bytes.json",
+      "sha256": "4f98641f62439467faca10893a3eccabc3a19f78df3c72d525df0aeca581af2e"
+    },
+    {
+      "path": "analysis/crystal-it-rev0-copy-bytes.json",
+      "sha256": "4dde1990aeb501965cf51fb3910ae783866fc5bd45586dd64b00c6f9fd91212c"
+    },
+    {
+      "path": "analysis/crystal-es-rev0-copy-bytes.json",
+      "sha256": "d5f7f22d2016245dc2f57c481323d861f574f03b42e8b762be178ff98ee0667b"
+    },
+    {
+      "path": "research/copy-bytes-reconstruction.md",
+      "sha256": "52c65ea67d4f80b1079874aee9933e1e88b4d4efe8f8a6bcf0f18ab53fbd42a4"
+    },
+    {
+      "path": "tests/test_copy_bytes_reconstruction.py",
+      "sha256": "62313f3af9afb91aa7fb6db80ee156e394ac26e97b92f29260e8d172f74ec3c0"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
