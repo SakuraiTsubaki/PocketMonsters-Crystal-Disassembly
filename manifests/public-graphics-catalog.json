@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "game": "Pokemon Crystal",
+  "asset_count": 26,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_public_graphics.py",
+    "tool_sha256": "b5bafdc488101945e9256675e9508a812fb77c57cbc1644465f2daf50e5acdbf"
+  },
+  "inputs": [
+    {
+      "path": "graphics/font/main-font-jp.png",
+      "sha256": "924a7bb2dd14aab6560d1376e99dae070368dcd7a05375c9c782f2217c86200f"
+    },
+    {
+      "path": "graphics/font/main-font-en.png",
+      "sha256": "a0770309776954144c25513989db6ef7d095e6bec2eafad6df9be45e1e4ed551"
+    },
+    {
+      "path": "graphics/font/main-font-de.png",
+      "sha256": "21d37c1d3978fbfe86e803a50c19e1a14d8cb95784e0b64932f00deac8ea188b"
+    },
+    {
+      "path": "graphics/font/main-font-fr.png",
+      "sha256": "21d37c1d3978fbfe86e803a50c19e1a14d8cb95784e0b64932f00deac8ea188b"
+    },
+    {
+      "path": "graphics/font/main-font-it.png",
+      "sha256": "39bb5cade88a18e7e6584068d5f5882e63d219c95cbb01c3a707a130a8626ebe"
+    },
+    {
+      "path": "graphics/font/main-font-es.png",
+      "sha256": "39bb5cade88a18e7e6584068d5f5882e63d219c95cbb01c3a707a130a8626ebe"
+    },
+    {
+      "path": "graphics/font/unown-font.png",
+      "sha256": "5491e2f08b803a18aa1bc4816e2f94b623a9b6989a4f05165eac6bbc1f8c8b0d"
+    },
+    {
+      "path": "graphics/header/nintendo-logo-en.png",
+      "sha256": "10e9a7189dad4bcced861a2ba409813b0cb6e78c5c87229bb5fd93343e397faa"
+    },
+    {
+      "path": "graphics/header/nintendo-logo-de.png",
+      "sha256": "10e9a7189dad4bcced861a2ba409813b0cb6e78c5c87229bb5fd93343e397faa"
+    },
+    {
+      "path": "graphics/header/nintendo-logo-fr.png",
+      "sha256": "10e9a7189dad4bcced861a2ba409813b0cb6e78c5c87229bb5fd93343e397faa"
+    },
+    {
+      "path": "graphics/header/nintendo-logo-it.png",
+      "sha256": "10e9a7189dad4bcced861a2ba409813b0cb6e78c5c87229bb5fd93343e397faa"
+    },
+    {
+      "path": "graphics/header/nintendo-logo-es.png",
+      "sha256": "10e9a7189dad4bcced861a2ba409813b0cb6e78c5c87229bb5fd93343e397faa"
+    },
+    {
+      "path": "graphics/header/nintendo-logo.png",
+      "sha256": "10e9a7189dad4bcced861a2ba409813b0cb6e78c5c87229bb5fd93343e397faa"
+    },
+    {
+      "path": "graphics/overworld/effects-atlas.png",
+      "sha256": "8a009e1575e696e7c029cf841ddee3932c08ec3d227b9781bb22d5fe677249b2"
+    },
+    {
+      "path": "graphics/overworld/emotes-atlas.png",
+      "sha256": "1791e3549e249f6d78f14ab5a9985518fc09c1e9e1b8382f2b49942a5afa7b2d"
+    },
+    {
+      "path": "graphics/overworld/emotes-effects-atlas.json",
+      "sha256": "da009cdc83cc6ec2ba44235ae4ffe18fa46d43753411e3938dc6a6724a9bbbd7"
+    },
+    {
+      "path": "graphics/pokemon/footprints-atlas.json",
+      "sha256": "a5a5d8304af975dadb52bedb3535783d7a1a7cc66c706c5c380ed6e93aafae9b"
+    },
+    {
+      "path": "graphics/pokemon/footprints-atlas.png",
+      "sha256": "137ad03c5f4befa6ed97e100dd095823d5e0d85892f1397f7dd48752b4492cfc"
+    },
+    {
+      "path": "graphics/pokemon/party-icons-atlas.json",
+      "sha256": "255575a4ed718d4b31f21fcbd7f1d1f31fa7350bc0a775784bb45b1e8686a597"
+    },
+    {
+      "path": "graphics/pokemon/party-icons-atlas.png",
+      "sha256": "74ada4f53da9ecc3fc328285840e8f3262d7a60033b973cc8e2213fa72ca8819"
+    },
+    {
+      "path": "graphics/title/title-logo-jp.png",
+      "sha256": "d6da5855159e5a6f9c8246c2ab0e1b216391f58c1e4052e7184388cffede2fbc"
+    },
+    {
+      "path": "graphics/title/title-logo-en.png",
+      "sha256": "bcf2b330030af40edd0f126f0867f4f8becc7eeabddac1ef713f73acc3d5c4cc"
+    },
+    {
+      "path": "graphics/title/title-logo-de.png",
+      "sha256": "ee76edbabf58b4c13fd49cde41424c1d9ed5b02bc8cc4733c90fcc1331532848"
+    },
+    {
+      "path": "graphics/title/title-logo-fr.png",
+      "sha256": "1a7ee69e91ec2a618c48683eed4bae294653d06626742874104df09ddc141e87"
+    },
+    {
+      "path": "graphics/title/title-logo-it.png",
+      "sha256": "a4bddec7af4761a5e5d32bd670a5d68640d5d1aad3e3b904fa8817cf70831942"
+    },
+    {
+      "path": "graphics/title/title-logo-es.png",
+      "sha256": "b3ab7842279d2d96fe5a155b233d7355ecd5c3808228bed770949bd8f5ebbec0"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "analysis/public-graphics-catalog.json",
+      "sha256": "f6c4e2c6d39965bfefab1aeea2571e9e791db11c347e466cf02538c5dc193089"
+    },
+    {
+      "path": "ASSETS.md",
+      "sha256": "7cb605df9e66fdcd5fa7cb7442737f20d894737b627f34cfadd7b7f2d0486514"
+    },
+    {
+      "path": "research/public-graphics-catalog.md",
+      "sha256": "63c503b24ad821a4d99db8850ef15f0082176ef4302e7e14676f4f94a3176df8"
+    },
+    {
+      "path": "tests/test_public_graphics_catalog.py",
+      "sha256": "c79e92174e200649bf5819a6cc268fc36cf9b1ea5ae79fa08a28b697e80cda67"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
