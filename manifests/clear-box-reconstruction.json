@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "Pocket Monsters Crystal",
+  "function": "ClearBox",
+  "profile": "crystal",
+  "origin_reference": "crystal-jp-rev0",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gen2_clear_box.py",
+    "tool_sha256": "119dcf3166a1579f128fdd97b427cddb2137cd188887b910e6cf0a18b69b7176"
+  },
+  "outputs": [
+    {
+      "path": "research/releases.csv",
+      "sha256": "8ad546c9f29bca84e8e5a908ca05fce3eabcf5b00919254963dc46e1a377e308"
+    },
+    {
+      "path": "src/clear_box.asm",
+      "sha256": "2fd4dc0fdd6cd163ba3ea1973bdc52de86f7d426af8c3ece4506c57d03e50286"
+    },
+    {
+      "path": "analysis/clear-box-summary.json",
+      "sha256": "1f60dcd16d45fbcce812be5eda45c5fb6d0c98dbdaea9928f3a8faedda8ff238"
+    },
+    {
+      "path": "analysis/crystal-jp-rev0-clear-box.json",
+      "sha256": "a12fa9ab488d194651525ffed2dafacb5b78d68c485dfbe3fc0d3f83ce6f66e2"
+    },
+    {
+      "path": "analysis/crystal-en-rev0-clear-box.json",
+      "sha256": "c9749922245c9e04ab33bfb631b7713f985692328ee528b0f916124e8caef1aa"
+    },
+    {
+      "path": "analysis/crystal-en-rev1-clear-box.json",
+      "sha256": "076a6d3d79023d265f04c8a42bc0d703b4dba9ba0d15bdcbbc712a2b53aac74b"
+    },
+    {
+      "path": "analysis/crystal-de-rev0-clear-box.json",
+      "sha256": "db844d22d5b74f9844f31bc2edb57f26812aefec707112b70672b22baef345ab"
+    },
+    {
+      "path": "analysis/crystal-fr-rev0-clear-box.json",
+      "sha256": "bf27d1db3b63cf6e8113fff258e31fa6f46a62a6663ebdc921a72d655bc08fbf"
+    },
+    {
+      "path": "analysis/crystal-it-rev0-clear-box.json",
+      "sha256": "c4f7376db0d8c91c673cf51ca16651f56924728dded588cf459994dd21ccd1ce"
+    },
+    {
+      "path": "analysis/crystal-es-rev0-clear-box.json",
+      "sha256": "adead472e39a11397a9516ad8d4168131a7dabcaea276d9fe5aca8b6c9cd0da8"
+    },
+    {
+      "path": "research/clear-box-reconstruction.md",
+      "sha256": "bcbd771f4addc4e989bab466960d2d5fc76c0fbb9c710ef6c795b9507abf36a2"
+    },
+    {
+      "path": "tests/test_clear_box_reconstruction.py",
+      "sha256": "eff43de54170c87d7bfa5cf6f7037de9f8aad01e47c175a921e0930b72766f2f"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

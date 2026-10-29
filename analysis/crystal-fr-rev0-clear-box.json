@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "profile": "crystal",
+  "target": {
+    "release": "crystal-fr-rev0",
+    "sha256": "178b0da870a3cc58414940412eb6473f515b8941cb83d81a1a42d05ca82749e7",
+    "status": "candidate"
+  },
+  "origin_reference": false,
+  "source": "src/clear_box.asm",
+  "source_sha256": "2fd4dc0fdd6cd163ba3ea1973bdc52de86f7d426af8c3ece4506c57d03e50286",
+  "function": {
+    "name": "ClearBox",
+    "rom_offset": 4022,
+    "bank": 0,
+    "address": 4022,
+    "range_end_exclusive": 4040,
+    "length": 18,
+    "code_sha256": "0aeb42ace5d7f6a88e5adb6aaca82717f648e3e2c0af006c03b323980ca5083e",
+    "raw_bytes_published": false
+  },
+  "related_functions": {
+    "FillBoxWithByte": {
+      "rom_offset": 4024,
+      "bank": 0,
+      "address": 4024,
+      "entry_kind": "ClearBox fallthrough after loading blank tile",
+      "caller_supplies_fill_byte_in": "A"
+    }
+  },
+  "verified_behavior": {
+    "variant": "crystal-fallthrough",
+    "blank_tile_value": 127,
+    "row_stride": 20,
+    "width_input_register": "C",
+    "height_input_register": "B",
+    "tilemap_pointer_register": "HL",
+    "preserves_row_start_and_dimensions": true
+  },
+  "cross_reference": {
+    "clear_screen_map": "analysis/crystal-fr-rev0-clear-screen.json",
+    "clear_screen_map_sha256": "cd25a18be3e804a19b51ea7a9ad2a1cc4d841f9659838f1cbe87a1e9e1aa607f"
+  },
+  "naming_basis": {
+    "primary": {
+      "repository": "pret/pokecrystal",
+      "commit": "3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6",
+      "path": "home/text.asm"
+    },
+    "korean_history": null
+  },
+  "raw_rom_bytes_included": false
+}
