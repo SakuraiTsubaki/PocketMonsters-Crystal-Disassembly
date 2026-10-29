@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "crystal-jp-rev0",
+    "sha256": "136ada06cb68656b7de475fa4b278d37dbeff8f5257e7dfdf7f4a4aec19a90f3",
+    "status": "candidate"
+  },
+  "origin_reference": true,
+  "axis": "Disassembly",
+  "profile": "crystal",
+  "source": "src/clear_screen.asm",
+  "source_sha256": "91e3c6f240826d1018fa05001fd05b1c9ade72c3cd9252c18baf4f5e7ae4283d",
+  "functions": {
+    "ClearTilemap": {
+      "rom_offset": 4018,
+      "bank": 0,
+      "address": 4018,
+      "range_end_exclusive": 4037,
+      "length": 19,
+      "code_sha256": "0d9083680767892456f0dbafa1a8f934a66fd48ddaff4dffa98194000afbf080",
+      "calls": [
+        {
+          "name": "ByteFill",
+          "address": 12301
+        }
+      ],
+      "wait_behavior": "returns if LCD is off, otherwise tail-jumps",
+      "wait_bg_map_address": 12738
+    },
+    "ClearScreen": {
+      "rom_offset": 4037,
+      "bank": 0,
+      "address": 4037,
+      "range_end_exclusive": 4050,
+      "length": 13,
+      "code_sha256": "90c5acad9777037e9cf2d89a249911b77d09e83ce09c98dfa7aaf313f4cddcdc",
+      "calls": [
+        {
+          "name": "ByteFill",
+          "address": 12301
+        }
+      ],
+      "clear_tilemap_transfer": {
+        "name": "ClearTilemap",
+        "address": 4018,
+        "kind": "tail-branch"
+      },
+      "wait_bg_map_transfer": null
+    }
+  },
+  "verified_behavior": {
+    "variant": "global-inline-wait",
+    "tilemap_address": 50336,
+    "attrmap_address": 52685,
+    "blank_tile_value": 127,
+    "background_palette_value": 7,
+    "filled_byte_count_each": 360,
+    "lcd_enable_register": "rLCDC",
+    "lcd_enable_bit": 7
+  },
+  "cross_reference": {
+    "byte_fill_map": "analysis/crystal-jp-rev0-byte-fill.json",
+    "byte_fill_map_sha256": "79af4ff5ee350080d53efbec2f378badba96049fdd4ca0e527648b423b8af3a4"
+  },
+  "naming_basis": {
+    "repository": "pret/pokecrystal",
+    "commit": "3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6",
+    "path": "home/text.asm"
+  },
+  "raw_rom_bytes_included": false
+}

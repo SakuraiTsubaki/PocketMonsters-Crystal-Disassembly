@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "game": "Crystal",
+  "axis": "Disassembly",
+  "functions": [
+    "ClearTilemap",
+    "ClearScreen"
+  ],
+  "profile": "crystal",
+  "origin_reference": "crystal-jp-rev0",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gen2_clear_screen.py",
+    "tool_sha256": "6cfe179e9500b351bbf7d019f5de924f97831267b7f38cadb29fa2ebee5c36b7"
+  },
+  "outputs": [
+    {
+      "path": "research/releases.csv",
+      "sha256": "8ad546c9f29bca84e8e5a908ca05fce3eabcf5b00919254963dc46e1a377e308"
+    },
+    {
+      "path": "src/clear_screen.asm",
+      "sha256": "91e3c6f240826d1018fa05001fd05b1c9ade72c3cd9252c18baf4f5e7ae4283d"
+    },
+    {
+      "path": "analysis/clear-screen-summary.json",
+      "sha256": "9d4e31b4cfa79975adb8f1a954fc19541c85e9368eec4934031a9be7c9117eb4"
+    },
+    {
+      "path": "analysis/crystal-jp-rev0-clear-screen.json",
+      "sha256": "7e1f4872af08b3e3d2f79a69c512c63563082464ea4098ccff4b34ba017633f4"
+    },
+    {
+      "path": "analysis/crystal-en-rev0-clear-screen.json",
+      "sha256": "d40459064c84f3bb92f0ea311f32acd35e3966c127407e2c9691aa21d740d973"
+    },
+    {
+      "path": "analysis/crystal-en-rev1-clear-screen.json",
+      "sha256": "e7d3466cb03104876926e753baec6ff0aec576bcdf10b91ce2ee2de0da0d8b20"
+    },
+    {
+      "path": "analysis/crystal-de-rev0-clear-screen.json",
+      "sha256": "2de84ac0d086ac27df663d50643e73f4bfccbc48be8844c753517f9eff67373a"
+    },
+    {
+      "path": "analysis/crystal-fr-rev0-clear-screen.json",
+      "sha256": "cd25a18be3e804a19b51ea7a9ad2a1cc4d841f9659838f1cbe87a1e9e1aa607f"
+    },
+    {
+      "path": "analysis/crystal-it-rev0-clear-screen.json",
+      "sha256": "c2829dedd6df2b4a84cf421d38e2b0703e5892fb25733031d6ffa3c383a3fbd2"
+    },
+    {
+      "path": "analysis/crystal-es-rev0-clear-screen.json",
+      "sha256": "880493d5ad047a301c1af8468e03ab1adbf914c51a4af5336793db859ef2a311"
+    },
+    {
+      "path": "research/clear-screen-reconstruction.md",
+      "sha256": "adb709484403a20f8fb8dd5eed2017f4c313b13e4c80849dda270303c8c76ccc"
+    },
+    {
+      "path": "tests/test_clear_screen_reconstruction.py",
+      "sha256": "663a1cb386d1ce45b6e7bba4a9ede41832f410c2ef4278bd8bc0a491b5edc057"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
