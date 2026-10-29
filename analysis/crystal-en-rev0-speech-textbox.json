@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "profile": "crystal",
+  "target": {
+    "release": "crystal-en-rev0",
+    "sha256": "d6702e353dcbe2d2c69183046c878ef13a0dae4006e8cdff521cca83dd1582fe",
+    "status": "candidate"
+  },
+  "origin_reference": false,
+  "source": "src/speech_textbox.asm",
+  "source_sha256": "e6cf188bd52c2c31ae72603320f0a28a726cced32285148a930cb56f6d130633",
+  "function": {
+    "name": "SpeechTextbox",
+    "rom_offset": 4158,
+    "bank": 0,
+    "address": 4158,
+    "range_end_exclusive": 4168,
+    "length": 10,
+    "code_sha256": "cb2cb5b1627099514e30eaadbcc763e020257f49b26d0f2000345f793a67752b",
+    "raw_bytes_published": false
+  },
+  "verified_behavior": {
+    "tilemap_pointer": 50576,
+    "inner_height": 4,
+    "inner_width": 18,
+    "height_register": "B",
+    "width_register": "C",
+    "textbox_transfer": {
+      "kind": "tail-jump",
+      "address": 4072
+    }
+  },
+  "cross_reference": {
+    "textbox_map": "analysis/crystal-en-rev0-textbox.json",
+    "textbox_map_sha256": "b7941d53da0e38ed30dd67e55518123d1ef4a6797b5b27e796f1b91316a084fc"
+  },
+  "naming_basis": {
+    "repository": "pret/pokecrystal",
+    "commit": "3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6",
+    "path": "home/text.asm"
+  },
+  "raw_rom_bytes_included": false
+}

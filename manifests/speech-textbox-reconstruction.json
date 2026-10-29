@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "Pocket Monsters Crystal",
+  "function": "SpeechTextbox",
+  "profile": "crystal",
+  "origin_reference": "crystal-jp-rev0",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gen2_speech_textbox.py",
+    "tool_sha256": "a3c325bc9305c273aaec96463cb1487f1a27459c2129a8b7f354e44b30391085"
+  },
+  "outputs": [
+    {
+      "path": "research/releases.csv",
+      "sha256": "8ad546c9f29bca84e8e5a908ca05fce3eabcf5b00919254963dc46e1a377e308"
+    },
+    {
+      "path": "src/speech_textbox.asm",
+      "sha256": "e6cf188bd52c2c31ae72603320f0a28a726cced32285148a930cb56f6d130633"
+    },
+    {
+      "path": "analysis/speech-textbox-summary.json",
+      "sha256": "c2e86ec5cec2f8b0bb31cb759a3bb42e567833e32b856fc0c9644e2b63347130"
+    },
+    {
+      "path": "analysis/crystal-jp-rev0-speech-textbox.json",
+      "sha256": "a5a9556c7dae8682aeafc77bf8165d7b4d144710a451d98b5233d98fc36637a0"
+    },
+    {
+      "path": "analysis/crystal-en-rev0-speech-textbox.json",
+      "sha256": "41d554f6f6aacd852343322affebd723270e1b9bf4715ec75f41c476da6142f8"
+    },
+    {
+      "path": "analysis/crystal-en-rev1-speech-textbox.json",
+      "sha256": "db19d6adb6d00ebf9b72e9b553aacb1cd857607d55845f0f899a9d3cdeb70dbc"
+    },
+    {
+      "path": "analysis/crystal-de-rev0-speech-textbox.json",
+      "sha256": "24639e831a7277f4a3cffbcb50c88894391f344e8c840e4a3842bede5d630272"
+    },
+    {
+      "path": "analysis/crystal-fr-rev0-speech-textbox.json",
+      "sha256": "73febf460d5912a637333a92a498f71a83e51bc8c3e936a47473f33fd0c88ea5"
+    },
+    {
+      "path": "analysis/crystal-it-rev0-speech-textbox.json",
+      "sha256": "c3326c4ca69671714173758df07bbe952097bccad1a4238cd58bd59efb93584d"
+    },
+    {
+      "path": "analysis/crystal-es-rev0-speech-textbox.json",
+      "sha256": "839d264f46dec3621875c773fe2cf74c2b5e074aa586efe4d37dd7bbf9a36825"
+    },
+    {
+      "path": "research/speech-textbox-reconstruction.md",
+      "sha256": "d77243a60aa2b109d845e05571f69f44279a4d0d9c9b7559577b9067383e261f"
+    },
+    {
+      "path": "tests/test_speech_textbox_reconstruction.py",
+      "sha256": "f68077206468839a4c34b3a07b6fa950ae6c2cf8b87e4d6845c9d15f2debdaab"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
