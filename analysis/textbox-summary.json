@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "Pocket Monsters Crystal",
+  "functions": [
+    "Textbox",
+    "TextboxBorder",
+    "PlaceChars",
+    "TextboxPalette"
+  ],
+  "profile": "crystal",
+  "origin_reference": "crystal-jp-rev0",
+  "release_count": 7,
+  "source": "src/textbox.asm",
+  "releases": [
+    {
+      "id": "crystal-jp-rev0",
+      "language": "Japanese",
+      "revision": 0,
+      "status": "candidate",
+      "sha256": "136ada06cb68656b7de475fa4b278d37dbeff8f5257e7dfdf7f4a4aec19a90f3",
+      "origin_reference": true,
+      "variant": "inline-border-and-palette",
+      "address": "0x0FD2",
+      "attribute_plane_delta": "0x092D",
+      "evidence": "analysis/crystal-jp-rev0-textbox.json"
+    },
+    {
+      "id": "crystal-en-rev0",
+      "language": "English",
+      "revision": 0,
+      "status": "candidate",
+      "sha256": "d6702e353dcbe2d2c69183046c878ef13a0dae4006e8cdff521cca83dd1582fe",
+      "origin_reference": false,
+      "variant": "inline-border-and-palette",
+      "address": "0x0FE8",
+      "attribute_plane_delta": "0x0939",
+      "evidence": "analysis/crystal-en-rev0-textbox.json"
+    },
+    {
+      "id": "crystal-en-rev1",
+      "language": "English",
+      "revision": 1,
+      "status": "candidate",
+      "sha256": "fdcc3c8c43813cf8731fc037d2a6d191bac75439c34b24ba1c27526e6acdc8a2",
+      "origin_reference": false,
+      "variant": "inline-border-and-palette",
+      "address": "0x0FE8",
+      "attribute_plane_delta": "0x0939",
+      "evidence": "analysis/crystal-en-rev1-textbox.json"
+    },
+    {
+      "id": "crystal-de-rev0",
+      "language": "German",
+      "revision": 0,
+      "status": "candidate",
+      "sha256": "22c0dfec9ce004dceebe280d71fa2579fa376064f70284bbf46322e163aa1160",
+      "origin_reference": false,
+      "variant": "inline-border-and-palette",
+      "address": "0x0FE8",
+      "attribute_plane_delta": "0x0939",
+      "evidence": "analysis/crystal-de-rev0-textbox.json"
+    },
+    {
+      "id": "crystal-fr-rev0",
+      "language": "French",
+      "revision": 0,
+      "status": "candidate",
+      "sha256": "178b0da870a3cc58414940412eb6473f515b8941cb83d81a1a42d05ca82749e7",
+      "origin_reference": false,
+      "variant": "inline-border-and-palette",
+      "address": "0x0FE8",
+      "attribute_plane_delta": "0x0939",
+      "evidence": "analysis/crystal-fr-rev0-textbox.json"
+    },
+    {
+      "id": "crystal-it-rev0",
+      "language": "Italian",
+      "revision": 0,
+      "status": "candidate",
+      "sha256": "2592aef20701fa1d5df5cf3343ffb4293092c911177868fa4a94698c27f7be89",
+      "origin_reference": false,
+      "variant": "inline-border-and-palette",
+      "address": "0x0FE8",
+      "attribute_plane_delta": "0x0939",
+      "evidence": "analysis/crystal-it-rev0-textbox.json"
+    },
+    {
+      "id": "crystal-es-rev0",
+      "language": "Spanish",
+      "revision": 0,
+      "status": "candidate",
+      "sha256": "4aacb5b3ac7a741d99f507e7c31393c015dea26a3ce8876021c50e7c761c1141",
+      "origin_reference": false,
+      "variant": "inline-border-and-palette",
+      "address": "0x0FE8",
+      "attribute_plane_delta": "0x0939",
+      "evidence": "analysis/crystal-es-rev0-textbox.json"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
