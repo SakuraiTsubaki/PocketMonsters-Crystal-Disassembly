@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "game": "Crystal",
+  "function": "SwapBytes",
+  "profile": "crystal",
+  "origin_reference": "crystal-jp-rev0",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gen2_crystal_swap_bytes.py",
+    "tool_sha256": "6601883b78dae9378ae6c6c99a85193ebbcc0b8ae763ef56132d6d44eb01682a"
+  },
+  "outputs": [
+    {
+      "path": "research/releases.csv",
+      "sha256": "8ad546c9f29bca84e8e5a908ca05fce3eabcf5b00919254963dc46e1a377e308"
+    },
+    {
+      "path": "src/swap_bytes.asm",
+      "sha256": "369583189d9056fd63255e0343292596489a5e8c51ad7240f6e681cc14459173"
+    },
+    {
+      "path": "analysis/swap-bytes-summary.json",
+      "sha256": "cacf3b20e0de1672f4b3c339d979dd4877a41f02abecf4cf6668115d76ed1337"
+    },
+    {
+      "path": "analysis/crystal-jp-rev0-swap-bytes.json",
+      "sha256": "079b072a4ac600e036bafa6c63be4b4bbad934c19f363b07ae22fb8232a8a792"
+    },
+    {
+      "path": "analysis/crystal-en-rev0-swap-bytes.json",
+      "sha256": "7ff61b86d2daf3dd577ddc7047b3968dc6b36b47a6f69557ee721fdf1f05c020"
+    },
+    {
+      "path": "analysis/crystal-en-rev1-swap-bytes.json",
+      "sha256": "c9f730cf075c0dfe61530b7dbc4a5c00ac070b2c39f2c870f639f80042dce367"
+    },
+    {
+      "path": "analysis/crystal-de-rev0-swap-bytes.json",
+      "sha256": "69d78a470531e55eaf6522c5f152c25dbeebc4ea4ba659e0d19140d1fc5bc787"
+    },
+    {
+      "path": "analysis/crystal-fr-rev0-swap-bytes.json",
+      "sha256": "c38265f1cf2bde0b29bba100a177fcd492387262b71948ef9e1d3545ce18bd11"
+    },
+    {
+      "path": "analysis/crystal-it-rev0-swap-bytes.json",
+      "sha256": "4dc5b79cac4e7618777f114b6bfec468d42ab06d036a85dfae495f674d2be442"
+    },
+    {
+      "path": "analysis/crystal-es-rev0-swap-bytes.json",
+      "sha256": "c7fb724c560ee069c5f4dc1722282bb671f3e241b38590e1f8f584bef309ee0b"
+    },
+    {
+      "path": "research/swap-bytes-reconstruction.md",
+      "sha256": "f6dd5303d819ef968e014f129605407e456baea42026a4f4396a1db3f6ab7e2e"
+    },
+    {
+      "path": "tests/test_swap_bytes_reconstruction.py",
+      "sha256": "84a517c36d56de30cdc362157912aee0bb6ae589a44928e8f18f177b67e5b65f"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

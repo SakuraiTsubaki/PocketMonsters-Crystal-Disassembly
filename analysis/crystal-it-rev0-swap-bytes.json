@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "crystal-it-rev0",
+    "sha256": "2592aef20701fa1d5df5cf3343ffb4293092c911177868fa4a94698c27f7be89",
+    "status": "candidate"
+  },
+  "origin_reference": false,
+  "function": {
+    "name": "SwapBytes",
+    "rom_offset": 12322,
+    "bank": 0,
+    "address": 12322,
+    "range_end_exclusive": 12335,
+    "length": 13,
+    "code_sha256": "2b754995a7c9b9d4c896cc12883e8a5975aa1cb8812e81251fe5276aa2e46980"
+  },
+  "semantics": {
+    "left": "HL",
+    "right": "DE",
+    "length": "BC",
+    "operation": "exchange BC bytes in place while advancing HL and DE",
+    "zero_length_precondition": "BC must be nonzero"
+  },
+  "cross_reference": {
+    "copy_bytes": "analysis/crystal-it-rev0-copy-bytes.json",
+    "sha256": "4dde1990aeb501965cf51fb3910ae783866fc5bd45586dd64b00c6f9fd91212c",
+    "adjacent": true
+  },
+  "naming_basis": {
+    "repository": "pret/pokecrystal",
+    "commit": "3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6",
+    "path": "home/copy.asm"
+  },
+  "raw_rom_bytes_included": false
+}
