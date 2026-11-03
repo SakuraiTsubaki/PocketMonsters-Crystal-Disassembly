@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "game": "Crystal",
+  "functions": [
+    "GetFarByte",
+    "GetFarWord"
+  ],
+  "profile": "crystal",
+  "origin_reference": "crystal-jp-rev0",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gen2_far_access.py",
+    "tool_sha256": "199a2b55fbc964d63bc945932a9019f4648171840d5a248190d1472b51553f64"
+  },
+  "outputs": [
+    {
+      "path": "research/releases.csv",
+      "sha256": "8ad546c9f29bca84e8e5a908ca05fce3eabcf5b00919254963dc46e1a377e308"
+    },
+    {
+      "path": "src/far_access.asm",
+      "sha256": "2dbf03161cd83f6537c013dfb27ba5807679d07369d4186d2b67e8700cdbf741"
+    },
+    {
+      "path": "analysis/far-access-summary.json",
+      "sha256": "f63a8d03728402fef3a8b0ff50fe8695763f303a076de69663efd02218069ae0"
+    },
+    {
+      "path": "analysis/crystal-jp-rev0-far-access.json",
+      "sha256": "43d6877605f5c10f00cbb18c34d411b73f2cdf67f220e45a059e146997045efc"
+    },
+    {
+      "path": "analysis/crystal-en-rev0-far-access.json",
+      "sha256": "de9a45c2a61168786773bc9f937d308c853cff7393d0b495a215b04ae1904178"
+    },
+    {
+      "path": "analysis/crystal-en-rev1-far-access.json",
+      "sha256": "0a4f3c41acdc787c42449e463d3a90c6c70c769a8b9a9b8218c2cba76bd0f713"
+    },
+    {
+      "path": "analysis/crystal-de-rev0-far-access.json",
+      "sha256": "b4ab52763477024a1e7d6750ff5b8f62957c4f081cb0129b6ff41f2a9bff0f55"
+    },
+    {
+      "path": "analysis/crystal-fr-rev0-far-access.json",
+      "sha256": "395d5286937aa552163a7d4709a94c410aeaf1bc7d33c556d8373fdb4c52d186"
+    },
+    {
+      "path": "analysis/crystal-it-rev0-far-access.json",
+      "sha256": "8715ce0f926fdd4c4e23741989bafc72e3f06201f8eac741eabad31b6d609872"
+    },
+    {
+      "path": "analysis/crystal-es-rev0-far-access.json",
+      "sha256": "a9439c0750b32ee91488a257629d14f572c4527d4f1c4a42dd6d15fd75322f95"
+    },
+    {
+      "path": "research/far-access-reconstruction.md",
+      "sha256": "03d0243352c80682549f1c4228f1cad2f61076f1121b7c164315f875f9fd2744"
+    },
+    {
+      "path": "tests/test_far_access_reconstruction.py",
+      "sha256": "9b8e0668fdab466d3189eb6cc3ba5e561772a45be756f81cb8371d94e79d5a74"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

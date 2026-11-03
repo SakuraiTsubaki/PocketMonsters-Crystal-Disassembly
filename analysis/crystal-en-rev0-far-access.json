@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "crystal-en-rev0",
+    "sha256": "d6702e353dcbe2d2c69183046c878ef13a0dae4006e8cdff521cca83dd1582fe",
+    "status": "candidate"
+  },
+  "origin_reference": false,
+  "profile": "crystal",
+  "functions": {
+    "GetFarByte": {
+      "rom_offset": 12365,
+      "bank": 0,
+      "address": 12365,
+      "range_end_exclusive": 12381,
+      "code_sha256": "7a0ad6cc48debb6222f96d50e0a0240137ad74a1bde899eede4e29db6d2c6433",
+      "length": 16,
+      "temporary_bank_storage": "0xFF8B",
+      "rom_bank_shadow": "0xFF9D",
+      "far_byte_storage": "0xFF8B"
+    },
+    "GetFarWord": {
+      "rom_offset": 12381,
+      "bank": 0,
+      "address": 12381,
+      "range_end_exclusive": 12395,
+      "code_sha256": "925b54c03ef4f645c8ee66f4767a76bdd8e127b4db18b03b8b4274235a62f46f",
+      "length": 14,
+      "temporary_bank_storage": "0xFF8B",
+      "rom_bank_shadow": "0xFF9D"
+    }
+  },
+  "semantics": {
+    "GetFarByte": "switch to bank A, read [HL], restore the previous ROM bank, return byte in A",
+    "GetFarWord": "switch to bank A, read little-endian [HL:HL+1], restore the previous ROM bank, return word in HL"
+  },
+  "cross_reference": {
+    "copy_bytes": "analysis/crystal-en-rev0-copy-bytes.json",
+    "sha256": "14c5bcf267ac794c44a2acdc413a90edf0c0d415cfb27e11b6c7807195d86aa5",
+    "get_far_byte_offset_from_copy_bytes_end": 25
+  },
+  "naming_basis": {
+    "repository": "pret/pokecrystal",
+    "commit": "3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6",
+    "path": "home/copy.asm"
+  },
+  "raw_rom_bytes_included": false
+}
