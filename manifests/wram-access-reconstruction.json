@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "game": "Crystal",
+  "functions": [
+    "FarCopyWRAM",
+    "GetFarWRAMByte",
+    "GetFarWRAMWord"
+  ],
+  "profile": "crystal",
+  "origin_reference": "crystal-jp-rev0",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gen2_crystal_wram_access.py",
+    "tool_sha256": "d686ab820e8892c2348a362d26db624ca473e88b17b86e3d18c17a866f02352f"
+  },
+  "outputs": [
+    {
+      "path": "research/releases.csv",
+      "sha256": "8ad546c9f29bca84e8e5a908ca05fce3eabcf5b00919254963dc46e1a377e308"
+    },
+    {
+      "path": "src/wram_access.asm",
+      "sha256": "4359660245913e9ec59fc9c008554850565097fa6990e432105f4a1eb7651be4"
+    },
+    {
+      "path": "analysis/wram-access-summary.json",
+      "sha256": "6ce6163d21277b1d5f631b107a86a7be9ea4fd41d004f3afffbf27daa531f16d"
+    },
+    {
+      "path": "analysis/crystal-jp-rev0-wram-access.json",
+      "sha256": "3c2726472cbdbc3b3845cd4a29cb2e58d7ce387403e11be301b2e1c6b6944f5b"
+    },
+    {
+      "path": "analysis/crystal-en-rev0-wram-access.json",
+      "sha256": "f29884311c0b5b5a02fe648c6c002ffdbea4ff47a17687c7b8a7ab94627f3128"
+    },
+    {
+      "path": "analysis/crystal-en-rev1-wram-access.json",
+      "sha256": "6c8a9f24f5f28a9ffa593e25600f8b13d3e1c828b69f863e9e442d3c041b1299"
+    },
+    {
+      "path": "analysis/crystal-de-rev0-wram-access.json",
+      "sha256": "0b47adeceeab93f114ae3f018e72879c39349d8ce787d688ab35cc5520d3787b"
+    },
+    {
+      "path": "analysis/crystal-fr-rev0-wram-access.json",
+      "sha256": "ab460a655bddbf051612c928dc88b9f703edf271939eef4c0822c9e0214fe31b"
+    },
+    {
+      "path": "analysis/crystal-it-rev0-wram-access.json",
+      "sha256": "a4bd3287605d513a8e8dcf9768c21912355ff8db207b053acbaa2eb738e25241"
+    },
+    {
+      "path": "analysis/crystal-es-rev0-wram-access.json",
+      "sha256": "555e0bf27d1431b7778dee0fab0694dabc0212515399131824cf489865db8315"
+    },
+    {
+      "path": "research/wram-access-reconstruction.md",
+      "sha256": "63b36394460225eee735deeb12c4bfcb06535c4d4e1bb0dabe271af4fc9a2072"
+    },
+    {
+      "path": "tests/test_wram_access_reconstruction.py",
+      "sha256": "8defb3f6dcb64bae86f99e9d95aef623dd99c98abdf999435febaa7fb6c6bd87"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "crystal-it-rev0",
+    "sha256": "2592aef20701fa1d5df5cf3343ffb4293092c911177868fa4a94698c27f7be89",
+    "status": "candidate"
+  },
+  "origin_reference": false,
+  "functions": {
+    "FarCopyWRAM": {
+      "rom_offset": 12377,
+      "bank": 0,
+      "address": 12377,
+      "range_end_exclusive": 12393,
+      "length": 16,
+      "code_sha256": "0ced9adcfc8a9ef0f81d3138fcfda0a54701109f1b5ad8966fd3734348de3fef"
+    },
+    "GetFarWRAMByte": {
+      "rom_offset": 12393,
+      "bank": 0,
+      "address": 12393,
+      "range_end_exclusive": 12411,
+      "length": 18,
+      "code_sha256": "93f4e13dd7b83a6fdbd45acbd125eb7239773b607e37f317385b52d405999b3d"
+    },
+    "GetFarWRAMWord": {
+      "rom_offset": 12411,
+      "bank": 0,
+      "address": 12411,
+      "range_end_exclusive": 12427,
+      "length": 16,
+      "code_sha256": "ecc8a0a29a8f0b3b2147e58207e3e19154a7931dee1591b4e28bd0c9ea8e61c7"
+    }
+  },
+  "hardware": {
+    "temporary_bank": "0xFF8B",
+    "wram_bank_register": "0xFF70",
+    "far_byte_storage": "0xFF8B"
+  },
+  "semantics": {
+    "FarCopyWRAM": "copy BC bytes from HL to DE while temporarily selecting WRAM bank A",
+    "GetFarWRAMByte": "read [HL] from WRAM bank A and return it in A",
+    "GetFarWRAMWord": "read little-endian [HL:HL+1] from WRAM bank A and return it in HL"
+  },
+  "cross_reference": {
+    "far_access": "analysis/crystal-it-rev0-far-access.json",
+    "far_access_sha256": "8715ce0f926fdd4c4e23741989bafc72e3f06201f8eac741eabad31b6d609872",
+    "copy_bytes": "analysis/crystal-it-rev0-copy-bytes.json",
+    "copy_bytes_sha256": "4dde1990aeb501965cf51fb3910ae783866fc5bd45586dd64b00c6f9fd91212c",
+    "adjacent_to_get_far_word": true
+  },
+  "naming_basis": {
+    "repository": "pret/pokecrystal",
+    "commit": "3bc8daa4173e96a7f4011dad3922eb6fa5dad5c6",
+    "path": "home/copy.asm"
+  },
+  "raw_rom_bytes_included": false
+}
