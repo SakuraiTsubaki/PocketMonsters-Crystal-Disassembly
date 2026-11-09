@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "game": "Crystal",
+  "functions": [
+    "DelayFrame",
+    "DelayFrames"
+  ],
+  "origin_reference": "crystal-jp-rev0",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gen2_delay.py",
+    "tool_sha256": "3f66cee0b910a9afff90ccc4a73388a9f260a9716f84efe42a6e9d1d7af357f3"
+  },
+  "outputs": [
+    {
+      "path": "research/releases.csv",
+      "sha256": "8ad546c9f29bca84e8e5a908ca05fce3eabcf5b00919254963dc46e1a377e308"
+    },
+    {
+      "path": "src/delay.asm",
+      "sha256": "28ce834398aa82e2fe7b73af2165c293fd127c0531ce64c7e239299ed4df4977"
+    },
+    {
+      "path": "analysis/delay-summary.json",
+      "sha256": "727e93ed63c49cc4f92e073314dbcbad4abc671a1b33c6fcb79aa4c5c95f8d0c"
+    },
+    {
+      "path": "analysis/crystal-jp-rev0-delay.json",
+      "sha256": "e72e0b17a066b0433ba484186b2f87bcb1d0858a64fa63a0813d6202cdbeae7a"
+    },
+    {
+      "path": "analysis/crystal-en-rev0-delay.json",
+      "sha256": "fc2f6f4546842db76adf6194a7e4deb0ca065748713b123bd0de7df199f51490"
+    },
+    {
+      "path": "analysis/crystal-en-rev1-delay.json",
+      "sha256": "b9ed79d24746728925a79b17d281c1e37a44fc3d2d4e720bfa41d1f340a63f55"
+    },
+    {
+      "path": "analysis/crystal-de-rev0-delay.json",
+      "sha256": "2ab424aba67518d8781f1e2387a1c25757626d64ea286925b4fed088df1b4271"
+    },
+    {
+      "path": "analysis/crystal-fr-rev0-delay.json",
+      "sha256": "06e3905b5efda1a7ba3f8915f390c56333f88813d6b347b807495e76d0b7ec96"
+    },
+    {
+      "path": "analysis/crystal-it-rev0-delay.json",
+      "sha256": "758293692f3f6362cf6049464b55b1ee89852d2eaa01725904198767724d4ac4"
+    },
+    {
+      "path": "analysis/crystal-es-rev0-delay.json",
+      "sha256": "0cc9d696127227b0955a32832d95dc715b8d50fcfa2d297d6582f5250bb47bf2"
+    },
+    {
+      "path": "research/delay-reconstruction.md",
+      "sha256": "5bb49e4dabc3f498f2b369c761b836564c5c4684ddbe064f3d1a8e3e30a23acd"
+    },
+    {
+      "path": "tests/test_delay_reconstruction.py",
+      "sha256": "e0c07513101ab7115d1ce9437ea9a8c0c545b975610f6b1dd95c4f43d52bad62"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
