@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "crystal-de-rev0",
+    "sha256": "22c0dfec9ce004dceebe280d71fa2579fa376064f70284bbf46322e163aa1160",
+    "status": "candidate"
+  },
+  "origin_reference": false,
+  "source": "src/count_set_bits.asm",
+  "source_sha256": "d4018d504045314d9bcd47aa1b3f3440f034d70d2f0b129dc6b13a88a73d5a61",
+  "function": {
+    "rom_offset": 13129,
+    "bank": 0,
+    "address": 13129,
+    "range_end_exclusive": 13152,
+    "length": 23,
+    "work_ram_address": 53861,
+    "code_sha256": "d827be24b770dec6d66003a205d1931aa7a36c128d44a99becd10ef982afd410",
+    "name": "CountSetBits",
+    "raw_bytes_published": false
+  },
+  "semantics": {
+    "input": "B bytes beginning at HL; B must be between 1 and 255",
+    "operation": "count all set bits while advancing HL by B bytes",
+    "result": "A, C and wNumSetBits contain the low eight bits of the count"
+  },
+  "naming_basis": {
+    "repository": "pret/pokecrystal",
+    "commit": "3c813b0b4d82b39bf62185aceffb76fd6026c70b",
+    "path": "home/pokedex_flags.asm"
+  },
+  "raw_rom_bytes_included": false
+}
