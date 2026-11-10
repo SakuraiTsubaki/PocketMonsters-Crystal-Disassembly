@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "game": "Crystal",
+  "function": "EnableLCD",
+  "origin_reference": "crystal-jp-rev0",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gen2_enable_lcd.py",
+    "tool_sha256": "0254235b82270a05a6c79b3b75ef20c5c442e0086249fff88ec7511d5b376b13"
+  },
+  "outputs": [
+    {
+      "path": "research/releases.csv",
+      "sha256": "8ad546c9f29bca84e8e5a908ca05fce3eabcf5b00919254963dc46e1a377e308"
+    },
+    {
+      "path": "src/enable_lcd.asm",
+      "sha256": "fddb550d31c590dc72a982e178ca8f766184b7151de4cab0abad41a31c0bafec"
+    },
+    {
+      "path": "analysis/enable-lcd-summary.json",
+      "sha256": "438742ba7d8cfebc31886dd02b619a0fde927f4010591ae08b10163b5dcf932a"
+    },
+    {
+      "path": "analysis/crystal-jp-rev0-enable-lcd.json",
+      "sha256": "88c94727517d69813401cd79c3f2a631d2a23523bd2c7a96b091ff7da3375424"
+    },
+    {
+      "path": "analysis/crystal-en-rev0-enable-lcd.json",
+      "sha256": "29e3e68438278898f1a23a6f2b94b582254abc92166093f2383913dcaf2aff5e"
+    },
+    {
+      "path": "analysis/crystal-en-rev1-enable-lcd.json",
+      "sha256": "4a644cabf4607999215528e7c64e420edc3cb053be5ab007ceba2f73f35df6cf"
+    },
+    {
+      "path": "analysis/crystal-de-rev0-enable-lcd.json",
+      "sha256": "54dcb54a075daa2167069d403cbae5c664ad66f9c96cf5fbddde66ee41b767eb"
+    },
+    {
+      "path": "analysis/crystal-fr-rev0-enable-lcd.json",
+      "sha256": "9d390f6c77dc8f2311aba9d02b75045f7135425d3a1656f3e041b8d2a16323ac"
+    },
+    {
+      "path": "analysis/crystal-it-rev0-enable-lcd.json",
+      "sha256": "b6144f3ca7d71ac2f63866e0b91f37f14ed99e73fb46d549f04ae3663e01a7e1"
+    },
+    {
+      "path": "analysis/crystal-es-rev0-enable-lcd.json",
+      "sha256": "f0c5faf5327115d2a818741f9efc9f293f41ed749df9720d5eac25355025d239"
+    },
+    {
+      "path": "research/enable-lcd-reconstruction.md",
+      "sha256": "d8a8ffd051106d8e0c2152524c3d90a7194273c676c3d0f40180f293b6bfd564"
+    },
+    {
+      "path": "tests/test_enable_lcd_reconstruction.py",
+      "sha256": "8a28ac5255fb7103e1a9d3568d6f9ef036ae069d85754014ef80e0de7ed849dd"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
