@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "game": "Crystal",
+  "function": "DisableLCD",
+  "origin_reference": "crystal-jp-rev0",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gen2_disable_lcd.py",
+    "tool_sha256": "aa6f76ebb3c19c909a8303b1996d349a9eab7571f95c138c5d373fda2a5bad58"
+  },
+  "outputs": [
+    {
+      "path": "research/releases.csv",
+      "sha256": "8ad546c9f29bca84e8e5a908ca05fce3eabcf5b00919254963dc46e1a377e308"
+    },
+    {
+      "path": "src/disable_lcd.asm",
+      "sha256": "37c3bcd8bab416b63e7f3441f904c2dadf9ef8d8b8e96fd10ba1dd79ec5ea906"
+    },
+    {
+      "path": "analysis/disable-lcd-summary.json",
+      "sha256": "f025a446128063b193a97527b13b6a13cd2898af9cfb10698f71e097c3ffec78"
+    },
+    {
+      "path": "analysis/crystal-jp-rev0-disable-lcd.json",
+      "sha256": "56a5c8fe725f201e5f2f0c0d9ff10067a8cd52f1cec9f05b5bf351fce215f8f7"
+    },
+    {
+      "path": "analysis/crystal-en-rev0-disable-lcd.json",
+      "sha256": "0f909b1d855ea174895540bd2a42debc850ec8480570c06877e4119b41e91f43"
+    },
+    {
+      "path": "analysis/crystal-en-rev1-disable-lcd.json",
+      "sha256": "4e64d3bb5186caa126dcb54a0392475858004b81e37d9d38b946758690d3f027"
+    },
+    {
+      "path": "analysis/crystal-de-rev0-disable-lcd.json",
+      "sha256": "4a0ffa08405c3495d0556e9afe8cde7cb6cc3d5f55a732aba383b27ba7a225bf"
+    },
+    {
+      "path": "analysis/crystal-fr-rev0-disable-lcd.json",
+      "sha256": "f238a0fd95b47c608bb87022a39003115461c1c4bff58b0d6ac9e2d51fd125aa"
+    },
+    {
+      "path": "analysis/crystal-it-rev0-disable-lcd.json",
+      "sha256": "1e4a08ab25fb3ff7f0a327b591867c0e98f24cbb78e398fc228f2862f2bf43b7"
+    },
+    {
+      "path": "analysis/crystal-es-rev0-disable-lcd.json",
+      "sha256": "46511637c754176915403dec1180f338c44e2c95861f854f6dca238c76d4f247"
+    },
+    {
+      "path": "research/disable-lcd-reconstruction.md",
+      "sha256": "9a60559d1ec26f322b2e4302fa6e4cfaf000b52ab56c9fef78365ba27a54352f"
+    },
+    {
+      "path": "tests/test_disable_lcd_reconstruction.py",
+      "sha256": "86851d943db8d196e107021d723840c24939780a66e3013fa4eb1e4bb1fa9e55"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
