@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "game": "Crystal",
+  "functions": [
+    "ClearSprites",
+    "HideSprites"
+  ],
+  "origin_reference": "crystal-jp-rev0",
+  "release_count": 7,
+  "source": "src/clear_hide_sprites.asm",
+  "releases": [
+    {
+      "id": "crystal-jp-rev0",
+      "language": "Japanese",
+      "revision": 0,
+      "status": "candidate",
+      "sha256": "136ada06cb68656b7de475fa4b278d37dbeff8f5257e7dfdf7f4a4aec19a90f3",
+      "origin_reference": true,
+      "clear_sprites_address": "0x2FD7",
+      "hide_sprites_address": "0x2FE2",
+      "w_shadow_oam_address": "0xC400",
+      "combined_sha256": "91739e0e27ed8f19d09c553f52e37b2cc662ff1cd6cae22ebc589eb9773555c0",
+      "evidence": "analysis/crystal-jp-rev0-clear-hide-sprites.json"
+    },
+    {
+      "id": "crystal-en-rev0",
+      "language": "English",
+      "revision": 0,
+      "status": "candidate",
+      "sha256": "d6702e353dcbe2d2c69183046c878ef13a0dae4006e8cdff521cca83dd1582fe",
+      "origin_reference": false,
+      "clear_sprites_address": "0x300B",
+      "hide_sprites_address": "0x3016",
+      "w_shadow_oam_address": "0xC400",
+      "combined_sha256": "91739e0e27ed8f19d09c553f52e37b2cc662ff1cd6cae22ebc589eb9773555c0",
+      "evidence": "analysis/crystal-en-rev0-clear-hide-sprites.json"
+    },
+    {
+      "id": "crystal-en-rev1",
+      "language": "English",
+      "revision": 1,
+      "status": "candidate",
+      "sha256": "fdcc3c8c43813cf8731fc037d2a6d191bac75439c34b24ba1c27526e6acdc8a2",
+      "origin_reference": false,
+      "clear_sprites_address": "0x300B",
+      "hide_sprites_address": "0x3016",
+      "w_shadow_oam_address": "0xC400",
+      "combined_sha256": "91739e0e27ed8f19d09c553f52e37b2cc662ff1cd6cae22ebc589eb9773555c0",
+      "evidence": "analysis/crystal-en-rev1-clear-hide-sprites.json"
+    },
+    {
+      "id": "crystal-de-rev0",
+      "language": "German",
+      "revision": 0,
+      "status": "candidate",
+      "sha256": "22c0dfec9ce004dceebe280d71fa2579fa376064f70284bbf46322e163aa1160",
+      "origin_reference": false,
+      "clear_sprites_address": "0x2FF5",
+      "hide_sprites_address": "0x3000",
+      "w_shadow_oam_address": "0xC400",
+      "combined_sha256": "91739e0e27ed8f19d09c553f52e37b2cc662ff1cd6cae22ebc589eb9773555c0",
+      "evidence": "analysis/crystal-de-rev0-clear-hide-sprites.json"
+    },
+    {
+      "id": "crystal-fr-rev0",
+      "language": "French",
+      "revision": 0,
+      "status": "candidate",
+      "sha256": "178b0da870a3cc58414940412eb6473f515b8941cb83d81a1a42d05ca82749e7",
+      "origin_reference": false,
+      "clear_sprites_address": "0x2FF8",
+      "hide_sprites_address": "0x3003",
+      "w_shadow_oam_address": "0xC400",
+      "combined_sha256": "91739e0e27ed8f19d09c553f52e37b2cc662ff1cd6cae22ebc589eb9773555c0",
+      "evidence": "analysis/crystal-fr-rev0-clear-hide-sprites.json"
+    },
+    {
+      "id": "crystal-it-rev0",
+      "language": "Italian",
+      "revision": 0,
+      "status": "candidate",
+      "sha256": "2592aef20701fa1d5df5cf3343ffb4293092c911177868fa4a94698c27f7be89",
+      "origin_reference": false,
+      "clear_sprites_address": "0x2FF9",
+      "hide_sprites_address": "0x3004",
+      "w_shadow_oam_address": "0xC400",
+      "combined_sha256": "91739e0e27ed8f19d09c553f52e37b2cc662ff1cd6cae22ebc589eb9773555c0",
+      "evidence": "analysis/crystal-it-rev0-clear-hide-sprites.json"
+    },
+    {
+      "id": "crystal-es-rev0",
+      "language": "Spanish",
+      "revision": 0,
+      "status": "candidate",
+      "sha256": "4aacb5b3ac7a741d99f507e7c31393c015dea26a3ce8876021c50e7c761c1141",
+      "origin_reference": false,
+      "clear_sprites_address": "0x2FF5",
+      "hide_sprites_address": "0x3000",
+      "w_shadow_oam_address": "0xC400",
+      "combined_sha256": "91739e0e27ed8f19d09c553f52e37b2cc662ff1cd6cae22ebc589eb9773555c0",
+      "evidence": "analysis/crystal-es-rev0-clear-hide-sprites.json"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

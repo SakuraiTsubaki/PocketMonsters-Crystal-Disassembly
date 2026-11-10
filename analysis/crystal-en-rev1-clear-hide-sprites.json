@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "crystal-en-rev1",
+    "sha256": "fdcc3c8c43813cf8731fc037d2a6d191bac75439c34b24ba1c27526e6acdc8a2",
+    "status": "candidate"
+  },
+  "origin_reference": false,
+  "source": "src/clear_hide_sprites.asm",
+  "source_sha256": "ff56a3eb65da9ce6a098ca5f6c97bdfc24b2b929da8e8bd24366900bda2aabc2",
+  "functions": {
+    "ClearSprites": {
+      "rom_offset": 12299,
+      "bank": 0,
+      "address": 12299,
+      "range_end_exclusive": 12310,
+      "length": 11,
+      "w_shadow_oam_address": 50176,
+      "byte_count": 160,
+      "code_sha256": "87a6a7b4391d55b5b7b05b1bb6ffd524684c0db9a60db3ec04e48a1b6c52576b"
+    },
+    "HideSprites": {
+      "rom_offset": 12310,
+      "bank": 0,
+      "address": 12310,
+      "range_end_exclusive": 12326,
+      "length": 16,
+      "w_shadow_oam_y_address": 50176,
+      "object_stride": 4,
+      "object_count": 40,
+      "hidden_y": 160,
+      "code_sha256": "3e10d0b9e0aada0e3963a5448858bbeaca320d151a07c31b9dabf69af483efb4"
+    },
+    "combined_sha256": "91739e0e27ed8f19d09c553f52e37b2cc662ff1cd6cae22ebc589eb9773555c0"
+  },
+  "semantics": {
+    "ClearSprites": "zero all 160 bytes of shadow OAM",
+    "HideSprites": "write Y=160 to each of 40 four-byte shadow OAM entries",
+    "shared_base": "both routines begin at the same release-specific shadow OAM address"
+  },
+  "naming_basis": {
+    "repository": "pret/pokecrystal",
+    "commit": "3c813b0b4d82b39bf62185aceffb76fd6026c70b",
+    "path": "home/clear_sprites.asm"
+  },
+  "raw_rom_bytes_included": false
+}

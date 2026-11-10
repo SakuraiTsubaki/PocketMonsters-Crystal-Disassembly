@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "game": "Crystal",
+  "functions": [
+    "ClearSprites",
+    "HideSprites"
+  ],
+  "origin_reference": "crystal-jp-rev0",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gen2_clear_hide_sprites.py",
+    "tool_sha256": "379c13f6af29401d21a32696c2dc680c87fe6040760689c92e002838314e4472"
+  },
+  "outputs": [
+    {
+      "path": "research/releases.csv",
+      "sha256": "8ad546c9f29bca84e8e5a908ca05fce3eabcf5b00919254963dc46e1a377e308"
+    },
+    {
+      "path": "src/clear_hide_sprites.asm",
+      "sha256": "ff56a3eb65da9ce6a098ca5f6c97bdfc24b2b929da8e8bd24366900bda2aabc2"
+    },
+    {
+      "path": "analysis/clear-hide-sprites-summary.json",
+      "sha256": "e581c775a5c45fdcb868301c277c26eed50642edf00d0eefed60f0b30f7e91f6"
+    },
+    {
+      "path": "analysis/crystal-jp-rev0-clear-hide-sprites.json",
+      "sha256": "ca3520cb5c010fb4d3886132e52f8f30bac203ebc84b9e141aba53e6c76058ea"
+    },
+    {
+      "path": "analysis/crystal-en-rev0-clear-hide-sprites.json",
+      "sha256": "19fbbd88297345909d2773f1fc488b6ae21d2f48a21c77946684438c845de909"
+    },
+    {
+      "path": "analysis/crystal-en-rev1-clear-hide-sprites.json",
+      "sha256": "7b2ae7548bed7449043285de5de8232d03a4ac15357428ef23f0c83aad3e5e7f"
+    },
+    {
+      "path": "analysis/crystal-de-rev0-clear-hide-sprites.json",
+      "sha256": "b7751af1a5c2790842b261c4376197a2fb5a9f87aaa41b3645342775bfa00eb8"
+    },
+    {
+      "path": "analysis/crystal-fr-rev0-clear-hide-sprites.json",
+      "sha256": "a66e924f260e7eece33a8de5c2904b0a93ef30534af7e5e3a4f208a8999b1eb2"
+    },
+    {
+      "path": "analysis/crystal-it-rev0-clear-hide-sprites.json",
+      "sha256": "b8df4f9d28b6bcefb29b7601b0afdd7ef84cb9722c70585ed991885af3be1548"
+    },
+    {
+      "path": "analysis/crystal-es-rev0-clear-hide-sprites.json",
+      "sha256": "81441bc8f3cbf911f2404c0804d28192a1abe61f30812c9e60fc2f8a0f46eb78"
+    },
+    {
+      "path": "research/clear-hide-sprites-reconstruction.md",
+      "sha256": "7240695b6b1698b4412fe7ab1d6a2421af68f65cde9a0aeb51fa70f71f30a240"
+    },
+    {
+      "path": "tests/test_clear_hide_sprites_reconstruction.py",
+      "sha256": "0cb2756dfe3582bba012ef72ccf6202ca9491c51104a19d7ca37a8c54850fb2f"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
