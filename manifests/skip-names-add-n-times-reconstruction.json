@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "game": "Pocket Monsters Crystal",
+  "functions": [
+    "SkipNames",
+    "AddNTimes"
+  ],
+  "origin_reference": "crystal-jp-rev0",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gen2_skip_names_add_n_times.py",
+    "tool_sha256": "a56e49cd5052593c57c9529d4d307f783148c77322d52078ffece61276839af2",
+    "dependency": {
+      "tool": "tools/catalog_gen2_compare_bytes.py",
+      "sha256": "dd5a689c9e8d708e0f6242ab95e4666eba7f51a7097ee52c54ac7c7898e8af62"
+    }
+  },
+  "outputs": [
+    {
+      "path": "research/releases.csv",
+      "sha256": "8ad546c9f29bca84e8e5a908ca05fce3eabcf5b00919254963dc46e1a377e308"
+    },
+    {
+      "path": "src/skip_names_add_n_times.asm",
+      "sha256": "4e14c97121a470f02debd8717f7cf7ae0074cc8880d3dee65f501a8771d519b0"
+    },
+    {
+      "path": "analysis/skip-names-add-n-times-summary.json",
+      "sha256": "29ccfb514b01c199887db357cab9d0e875166089fa9440f1570d6810f1f697ed"
+    },
+    {
+      "path": "analysis/crystal-jp-rev0-skip-names-add-n-times.json",
+      "sha256": "cc747f291dbb5a98fd86309ddc1e98f3966dd77039a7cde70a1deabb64cff46c"
+    },
+    {
+      "path": "analysis/crystal-en-rev0-skip-names-add-n-times.json",
+      "sha256": "4b1f0e6769a81755ac44a2ad6de4534b2c755d615b51f143a4a2133f1384c2ad"
+    },
+    {
+      "path": "analysis/crystal-en-rev1-skip-names-add-n-times.json",
+      "sha256": "731e3b6c36504fce9a5418ada44c0a84f156921d2897c5e99425f83130073874"
+    },
+    {
+      "path": "analysis/crystal-de-rev0-skip-names-add-n-times.json",
+      "sha256": "1fcca5604e994f39294536cf3afe6a42ca64959eafca06c60ae1702729e82304"
+    },
+    {
+      "path": "analysis/crystal-fr-rev0-skip-names-add-n-times.json",
+      "sha256": "9b26108a0973dd6e4c203e57e909bfce2c40e4f66ba2da7facbb8a5ca2c2c4b2"
+    },
+    {
+      "path": "analysis/crystal-it-rev0-skip-names-add-n-times.json",
+      "sha256": "dd653ee6a3518de1a9a6a8deeb42ce434a8c38344f18265fed4797fcb8b6aa4e"
+    },
+    {
+      "path": "analysis/crystal-es-rev0-skip-names-add-n-times.json",
+      "sha256": "8b6e8af5c74a14b010350dc0f15efd8b92b5f54e2b9e63bfec77169f3bf0c71d"
+    },
+    {
+      "path": "research/skip-names-add-n-times-reconstruction.md",
+      "sha256": "88be9be14f922ca0031084a7c3c44a8b2b73517abf068ae875110114892693ca"
+    },
+    {
+      "path": "tests/test_skip_names_add_n_times_reconstruction.py",
+      "sha256": "1774f03d036cf0356a77fe103f6f400b7e87f50b576d059b901c32679952378d"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
