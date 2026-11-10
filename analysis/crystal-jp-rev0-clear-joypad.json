@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "crystal-jp-rev0",
+    "sha256": "136ada06cb68656b7de475fa4b278d37dbeff8f5257e7dfdf7f4a4aec19a90f3",
+    "status": "candidate"
+  },
+  "origin_reference": true,
+  "source": "src/clear_joypad.asm",
+  "source_sha256": "fe9f1a454c5160d4b0202f0836c4a33bf7ee2754eae5cb8f66d6d659e3347f95",
+  "function": {
+    "name": "ClearJoypad",
+    "rom_offset": 2351,
+    "bank": 0,
+    "address": 2351,
+    "range_end_exclusive": 2357,
+    "length": 6,
+    "joypad_interrupt_placeholder_address": 2350,
+    "h_joy_pressed_address": 65447,
+    "h_joy_down_address": 65448,
+    "code_sha256": "3f816216fed3f605097c3edeaab6767f136943a59adfff11e589c12b7fd97e91",
+    "raw_bytes_published": false
+  },
+  "semantics": {
+    "operation": "clear the pressed-this-frame and currently-held joypad mirrors",
+    "zero_source": "XOR A",
+    "writes": [
+      "hJoyPressed",
+      "hJoyDown"
+    ],
+    "return_value": "A is zero",
+    "anchor": "immediately follows the ROM0 joypad interrupt RETI placeholder"
+  },
+  "naming_basis": {
+    "repository": "pret/pokecrystal",
+    "commit": "3c813b0b4d82b39bf62185aceffb76fd6026c70b",
+    "path": "home/joypad.asm"
+  },
+  "raw_rom_bytes_included": false
+}
