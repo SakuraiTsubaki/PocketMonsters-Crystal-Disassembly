@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "crystal-jp-rev0",
+    "sha256": "136ada06cb68656b7de475fa4b278d37dbeff8f5257e7dfdf7f4a4aec19a90f3",
+    "status": "candidate"
+  },
+  "origin_reference": true,
+  "source": "src/get_weekday.asm",
+  "source_sha256": "9bf4403860ba70f8d1e5deb956bdc5d926e4e35be754b58512ac7a69bebe1e13",
+  "function": {
+    "rom_offset": 13122,
+    "bank": 0,
+    "address": 13122,
+    "range_end_exclusive": 13132,
+    "length": 10,
+    "cur_day_address": 54462,
+    "code_sha256": "f16c8f310645473ca9c69cd49622f950439071198b971b913dc7eacbc66f0c1c",
+    "name": "GetWeekday",
+    "raw_bytes_published": false
+  },
+  "semantics": {
+    "input": "wCurDay unsigned byte",
+    "operation": "repeatedly subtract 7, then restore the final borrow",
+    "result": "A = wCurDay modulo 7 in the range 0 through 6"
+  },
+  "naming_basis": {
+    "repository": "pret/pokecrystal",
+    "commit": "3c813b0b4d82b39bf62185aceffb76fd6026c70b",
+    "path": "home/pokedex_flags.asm"
+  },
+  "raw_rom_bytes_included": false
+}
