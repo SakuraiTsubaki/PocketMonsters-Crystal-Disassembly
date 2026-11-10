@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "game": "Pocket Monsters Crystal",
+  "function": "IsInArray",
+  "origin_reference": "crystal-jp-rev0",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gen2_is_in_array.py",
+    "tool_sha256": "a7c74675beaf71941d0f2b62f4e2488dc8513ee599a618672993398260212f68",
+    "dependency": {
+      "tool": "tools/catalog_gen2_compare_bytes.py",
+      "sha256": "dd5a689c9e8d708e0f6242ab95e4666eba7f51a7097ee52c54ac7c7898e8af62"
+    }
+  },
+  "outputs": [
+    {
+      "path": "research/releases.csv",
+      "sha256": "8ad546c9f29bca84e8e5a908ca05fce3eabcf5b00919254963dc46e1a377e308"
+    },
+    {
+      "path": "src/is_in_array.asm",
+      "sha256": "d5e0473db63912a58eb041e3768903be24be0569a20f5f2fcad6c785f1ec3573"
+    },
+    {
+      "path": "analysis/is-in-array-summary.json",
+      "sha256": "95ddb5591080b02c0707ff032c7029e5b447ac2d8d469df5c72aa2701fdd20ea"
+    },
+    {
+      "path": "analysis/crystal-jp-rev0-is-in-array.json",
+      "sha256": "519b9904a0f71cd2f74fd1772cfb5ec0885e87e4115d82c6a832394eaf2bb789"
+    },
+    {
+      "path": "analysis/crystal-en-rev0-is-in-array.json",
+      "sha256": "5eac18b75f2537e373084ecedfd87b5ceeed069c3eaa072cf128373fc2917437"
+    },
+    {
+      "path": "analysis/crystal-en-rev1-is-in-array.json",
+      "sha256": "cc81bcd8472bbe27f0c79ce567cb0455392447130a536425a6335cf06e636cb1"
+    },
+    {
+      "path": "analysis/crystal-de-rev0-is-in-array.json",
+      "sha256": "e56312c30c0d8cc888753ca9a58067c746edb6ed4f673c43192ae5a4e5941949"
+    },
+    {
+      "path": "analysis/crystal-fr-rev0-is-in-array.json",
+      "sha256": "682f80b0b14a1fa6e5e811f36f106e473125ac5d67dc52b8f76a706b9586be66"
+    },
+    {
+      "path": "analysis/crystal-it-rev0-is-in-array.json",
+      "sha256": "2399770eed309d090581548cdfd5c06bea41e60345082923473043ff1e5291e5"
+    },
+    {
+      "path": "analysis/crystal-es-rev0-is-in-array.json",
+      "sha256": "b14f50dd4fd20579ade6a737925117073a10000af4b14a30d94ef611b4108c20"
+    },
+    {
+      "path": "research/is-in-array-reconstruction.md",
+      "sha256": "14f39b69ff93aa19fe62e7fefcc5491a8bdef529c6a381f476cfde2666947f73"
+    },
+    {
+      "path": "tests/test_is_in_array_reconstruction.py",
+      "sha256": "07eca331650ece9395f23bb2e49bcef63dc9b432f231f7fcac056fa9a84904cc"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

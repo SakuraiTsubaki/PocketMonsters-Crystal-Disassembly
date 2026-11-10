@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "crystal-en-rev0",
+    "sha256": "d6702e353dcbe2d2c69183046c878ef13a0dae4006e8cdff521cca83dd1582fe",
+    "status": "candidate"
+  },
+  "origin_reference": false,
+  "source": "src/is_in_array.asm",
+  "source_sha256": "d5e0473db63912a58eb041e3768903be24be0569a20f5f2fcad6c785f1ec3573",
+  "function": {
+    "name": "IsInArray",
+    "rom_offset": 12513,
+    "bank": 0,
+    "address": 12513,
+    "range_end_exclusive": 12532,
+    "length": 19,
+    "code_sha256": "c50ee07ffbf329f2029271ef266271e4618079847ced00d00ff5ae03b0e11cd4",
+    "raw_bytes_published": false
+  },
+  "semantics": {
+    "input": "A search byte, HL array base and DE positive entry stride",
+    "terminator": "0xff in the first byte of an entry",
+    "result": "B is the entry index; carry is set only when the value is found",
+    "precedence": "0xff terminates before it can match a search value"
+  },
+  "naming_basis": {
+    "repository": "pret/pokecrystal",
+    "commit": "3c813b0b4d82b39bf62185aceffb76fd6026c70b",
+    "path": "home/array.asm"
+  },
+  "raw_rom_bytes_included": false
+}
