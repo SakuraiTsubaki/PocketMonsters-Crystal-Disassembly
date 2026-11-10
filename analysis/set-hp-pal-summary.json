@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "game": "Crystal",
+  "function": "SetHPPal",
+  "origin_reference": "crystal-jp-rev0",
+  "release_count": 7,
+  "source": "src/set_hp_pal.asm",
+  "releases": [
+    {
+      "id": "crystal-jp-rev0",
+      "language": "Japanese",
+      "revision": 0,
+      "status": "candidate",
+      "sha256": "136ada06cb68656b7de475fa4b278d37dbeff8f5257e7dfdf7f4a4aec19a90f3",
+      "origin_reference": true,
+      "address": "0x331A",
+      "get_hp_pal_target": "0x331F",
+      "code_sha256": "0b353a146374d372e24697c69f76d636bcd30f1d94f60bac54bff9bab180e345",
+      "evidence": "analysis/crystal-jp-rev0-set-hp-pal.json"
+    },
+    {
+      "id": "crystal-en-rev0",
+      "language": "English",
+      "revision": 0,
+      "status": "candidate",
+      "sha256": "d6702e353dcbe2d2c69183046c878ef13a0dae4006e8cdff521cca83dd1582fe",
+      "origin_reference": false,
+      "address": "0x334E",
+      "get_hp_pal_target": "0x3353",
+      "code_sha256": "624b146a46eaa64e82f14196d8a36791f30a74eb956bc670f1ac57b0e8a50d84",
+      "evidence": "analysis/crystal-en-rev0-set-hp-pal.json"
+    },
+    {
+      "id": "crystal-en-rev1",
+      "language": "English",
+      "revision": 1,
+      "status": "candidate",
+      "sha256": "fdcc3c8c43813cf8731fc037d2a6d191bac75439c34b24ba1c27526e6acdc8a2",
+      "origin_reference": false,
+      "address": "0x334E",
+      "get_hp_pal_target": "0x3353",
+      "code_sha256": "624b146a46eaa64e82f14196d8a36791f30a74eb956bc670f1ac57b0e8a50d84",
+      "evidence": "analysis/crystal-en-rev1-set-hp-pal.json"
+    },
+    {
+      "id": "crystal-de-rev0",
+      "language": "German",
+      "revision": 0,
+      "status": "candidate",
+      "sha256": "22c0dfec9ce004dceebe280d71fa2579fa376064f70284bbf46322e163aa1160",
+      "origin_reference": false,
+      "address": "0x3338",
+      "get_hp_pal_target": "0x333D",
+      "code_sha256": "70619ba0ead324fc05b202b01c378dbd30ca673754bafc2a42b329381fa689d0",
+      "evidence": "analysis/crystal-de-rev0-set-hp-pal.json"
+    },
+    {
+      "id": "crystal-fr-rev0",
+      "language": "French",
+      "revision": 0,
+      "status": "candidate",
+      "sha256": "178b0da870a3cc58414940412eb6473f515b8941cb83d81a1a42d05ca82749e7",
+      "origin_reference": false,
+      "address": "0x333B",
+      "get_hp_pal_target": "0x3340",
+      "code_sha256": "552e5c7c08585b56fb8421b4cb4ed45df94b1c31ab5720ac839fd66cd64ffa17",
+      "evidence": "analysis/crystal-fr-rev0-set-hp-pal.json"
+    },
+    {
+      "id": "crystal-it-rev0",
+      "language": "Italian",
+      "revision": 0,
+      "status": "candidate",
+      "sha256": "2592aef20701fa1d5df5cf3343ffb4293092c911177868fa4a94698c27f7be89",
+      "origin_reference": false,
+      "address": "0x333C",
+      "get_hp_pal_target": "0x3341",
+      "code_sha256": "0a3765ad26c0ed20644e9769587c0b7aadabfa0f557c016527a2e20b1f485348",
+      "evidence": "analysis/crystal-it-rev0-set-hp-pal.json"
+    },
+    {
+      "id": "crystal-es-rev0",
+      "language": "Spanish",
+      "revision": 0,
+      "status": "candidate",
+      "sha256": "4aacb5b3ac7a741d99f507e7c31393c015dea26a3ce8876021c50e7c761c1141",
+      "origin_reference": false,
+      "address": "0x3338",
+      "get_hp_pal_target": "0x333D",
+      "code_sha256": "70619ba0ead324fc05b202b01c378dbd30ca673754bafc2a42b329381fa689d0",
+      "evidence": "analysis/crystal-es-rev0-set-hp-pal.json"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

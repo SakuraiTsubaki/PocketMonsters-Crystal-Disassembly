@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "crystal-jp-rev0",
+    "sha256": "136ada06cb68656b7de475fa4b278d37dbeff8f5257e7dfdf7f4a4aec19a90f3",
+    "status": "candidate"
+  },
+  "origin_reference": true,
+  "source": "src/set_hp_pal.asm",
+  "source_sha256": "f6f32964e9e5eb46af1293f904d3a93cc4b5053cbe4ad2a80fb42422d91944dc",
+  "function": {
+    "rom_offset": 13082,
+    "bank": 0,
+    "address": 13082,
+    "range_end_exclusive": 13087,
+    "length": 5,
+    "get_hp_pal_target": 13087,
+    "destination": "HL",
+    "palette_register": "D",
+    "code_sha256": "0b353a146374d372e24697c69f76d636bcd30f1d94f60bac54bff9bab180e345",
+    "name": "SetHPPal",
+    "raw_bytes_published": false
+  },
+  "semantics": {
+    "operation": "classify E through GetHPPal, write palette D to [HL], return",
+    "adjacency": "SetHPPal ends exactly where the release-specific GetHPPal begins",
+    "destination_register": "HL"
+  },
+  "naming_basis": {
+    "repository": "pret/pokecrystal",
+    "commit": "3c813b0b4d82b39bf62185aceffb76fd6026c70b",
+    "path": "home/tilemap.asm"
+  },
+  "raw_rom_bytes_included": false
+}

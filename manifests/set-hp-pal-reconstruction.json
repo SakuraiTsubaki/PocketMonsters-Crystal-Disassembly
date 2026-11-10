@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "game": "Crystal",
+  "function": "SetHPPal",
+  "origin_reference": "crystal-jp-rev0",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gen2_set_hp_pal.py",
+    "tool_sha256": "9750c21e91879d3cac43b8ddacb05d2da4905216e1673b6a4729a6ade592c560",
+    "dependency": {
+      "tool": "tools/catalog_gen2_get_hp_pal.py",
+      "sha256": "aec8cf92b7caa22e86894bfa396238e4cb41faf098b37edc6cd1e49fec04d85b"
+    }
+  },
+  "outputs": [
+    {
+      "path": "research/releases.csv",
+      "sha256": "8ad546c9f29bca84e8e5a908ca05fce3eabcf5b00919254963dc46e1a377e308"
+    },
+    {
+      "path": "src/set_hp_pal.asm",
+      "sha256": "f6f32964e9e5eb46af1293f904d3a93cc4b5053cbe4ad2a80fb42422d91944dc"
+    },
+    {
+      "path": "analysis/set-hp-pal-summary.json",
+      "sha256": "040fc39c802bbd53388879d8996bebf7356389852e9ac86d824c7c08f049922d"
+    },
+    {
+      "path": "analysis/crystal-jp-rev0-set-hp-pal.json",
+      "sha256": "5e2eca0da057212319e6bd70a950b378459949a485e229adaa062c6c932b22d0"
+    },
+    {
+      "path": "analysis/crystal-en-rev0-set-hp-pal.json",
+      "sha256": "76f2fcc8cc2bb0670b0964e815c5c295427ecf9410f6be7f70c5c745f0b460e2"
+    },
+    {
+      "path": "analysis/crystal-en-rev1-set-hp-pal.json",
+      "sha256": "4e7d34fb4b07b6e78c1ef75f98c4fcb8a0fb149a07362e3caf036ed2d324738b"
+    },
+    {
+      "path": "analysis/crystal-de-rev0-set-hp-pal.json",
+      "sha256": "17f287385a31c2c41a12256f70749e1ba8177c371f89a6cf00a37edc7695e1cb"
+    },
+    {
+      "path": "analysis/crystal-fr-rev0-set-hp-pal.json",
+      "sha256": "83fe91747ef557310dfd590b46225c9bc1f28af31215b8f85866061e1dad45a2"
+    },
+    {
+      "path": "analysis/crystal-it-rev0-set-hp-pal.json",
+      "sha256": "8ec9e38ba6e93a822aec4074f11671c5fb3232d7505093f844211a845bc6cf9a"
+    },
+    {
+      "path": "analysis/crystal-es-rev0-set-hp-pal.json",
+      "sha256": "6cc196fac3a0f69fa2874ff2e383b8ae5476f433427410e4d6b68cc69c6692af"
+    },
+    {
+      "path": "research/set-hp-pal-reconstruction.md",
+      "sha256": "448af4f5dbe344179ee42e2bcdd2b88a2f4553ec0b0e0b45da3d40f053bd9f14"
+    },
+    {
+      "path": "tests/test_set_hp_pal_reconstruction.py",
+      "sha256": "19b92644f658b5f8cc0ba85907e6d2edc6db3250e82840dad4ad38067644d93e"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
