@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "game": "Pocket Monsters Crystal",
+  "function": "CompareBytesLong",
+  "origin_reference": "crystal-jp-rev0",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gen2_compare_bytes_long.py",
+    "tool_sha256": "b7f8aba916b62e6cb0bdb53df84955d9ae1eb7916eb51cced9176eb194a22569",
+    "dependency": {
+      "tool": "tools/catalog_gen2_compare_bytes.py",
+      "sha256": "dd5a689c9e8d708e0f6242ab95e4666eba7f51a7097ee52c54ac7c7898e8af62"
+    }
+  },
+  "outputs": [
+    {
+      "path": "research/releases.csv",
+      "sha256": "8ad546c9f29bca84e8e5a908ca05fce3eabcf5b00919254963dc46e1a377e308"
+    },
+    {
+      "path": "src/compare_bytes_long.asm",
+      "sha256": "62482f66769c764179292b35a1e93b655287c20e847dceb2f75fea2bb0bf120a"
+    },
+    {
+      "path": "analysis/compare-bytes-long-summary.json",
+      "sha256": "0fa7e48133219d8949ac20898a0718c0ad817ded36f3ec813be411322606b5ce"
+    },
+    {
+      "path": "analysis/crystal-jp-rev0-compare-bytes-long.json",
+      "sha256": "ef8ddedcabfa5b99aa04993dc79d6f38ae62efe48aba1978b84f86e0cf582d45"
+    },
+    {
+      "path": "analysis/crystal-en-rev0-compare-bytes-long.json",
+      "sha256": "a5e0ff7bbdfd80e05f2ae8d47b270b90d0d2ae195b332ce6cb7d7355bbc97627"
+    },
+    {
+      "path": "analysis/crystal-en-rev1-compare-bytes-long.json",
+      "sha256": "3a46338989857b6aad5fbfad27b9061f2d5204897af6aeb7cfd15b55a0dfad5d"
+    },
+    {
+      "path": "analysis/crystal-de-rev0-compare-bytes-long.json",
+      "sha256": "001bcb69cf2bd553cdcdc7ad4edf4c5f521b5ce5a9ac8cdfadcef05bc630da25"
+    },
+    {
+      "path": "analysis/crystal-fr-rev0-compare-bytes-long.json",
+      "sha256": "661ce1539f9c606b4bac3ca170398d5731bcc15616d686c9893ea8af583f5cdf"
+    },
+    {
+      "path": "analysis/crystal-it-rev0-compare-bytes-long.json",
+      "sha256": "42138fa91d654c0e09f4475a4ddcc4259382b3a563725e13e081c0ad794983ac"
+    },
+    {
+      "path": "analysis/crystal-es-rev0-compare-bytes-long.json",
+      "sha256": "f6bd33581af3cfbaddb8c0a0f2958f8917e801d6436f31d5523f270824932510"
+    },
+    {
+      "path": "research/compare-bytes-long-reconstruction.md",
+      "sha256": "bf688c2dbed803dc93f311cb88348bb7619c6a878623778389991438557cd189"
+    },
+    {
+      "path": "tests/test_compare_bytes_long_reconstruction.py",
+      "sha256": "174dfe5a4878a1747ea36d52fe88c879ff999cae23ee330ea5b430c4a4f36cb5"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
